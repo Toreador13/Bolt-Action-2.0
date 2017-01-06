@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="dd1c28f5-7a1e-e616-4caa-87ff07e7d4f1" name="Bolt Action" revision="11" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="d373-d979-116c-5487" name="Bolt Action 2.0" revision="1" battleScribeVersion="2.00" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -3215,6 +3215,18 @@ Ignores the Gun Shield rule</description>
       <modifiers/>
       <characteristics>
         <characteristic name="Morale" characteristicTypeId="cd18296c-c82a-5671-d4f4-db025626d4e9" value="10"/>
+      </characteristics>
+    </profile>
+    <profile id="dab9-9e30-dd75-ee1a" name="VB Launcher" page="0" hidden="false" profileTypeId="58b84a31-b571-5b2b-0a61-a8b39a74f6eb">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="6-18&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef" value="1"/>
+        <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="HE"/>
+        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Indirect fire, HE(D2)"/>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -268,7 +268,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6d86-9485-fc1f-ea24" name="SNLF Grenadier Squad" hidden="false" targetId="9bcd96dc-bda6-c4a7-d239-6997921420e6" type="selectionEntry">
+    <entryLink id="6d86-9485-fc1f-ea24" hidden="false" targetId="9bcd96dc-bda6-c4a7-d239-6997921420e6" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1480,7 +1480,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="1f888e50-deea-718d-8b57-e74b4063b83a" name="Fixed" hidden="false" targetId="75a15bd5-b7f9-eb24-bf97-f6517ea3b4b4" type="rule">
+        <infoLink id="1f888e50-deea-718d-8b57-e74b4063b83a" hidden="false" targetId="75a15bd5-b7f9-eb24-bf97-f6517ea3b4b4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1492,7 +1492,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="20cb7c8b-e8e2-a47b-7e6d-733908491420" name="Crew (4)" hidden="false" targetId="1e23b695-97f3-2125-d7bf-95a6f63eb66b" type="rule">
+        <infoLink id="20cb7c8b-e8e2-a47b-7e6d-733908491420" hidden="false" targetId="1e23b695-97f3-2125-d7bf-95a6f63eb66b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1678,20 +1678,18 @@
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>Suicide Anti-Tank team count as Observers/Snipers for the purposes of set-up.</description>
                 </rule>
                 <rule id="a2da20e9-ad54-d877-ff6f-770462e4196d" name="Kamikaze" page="0" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>If a suicide anti-tank team assualts an enemy vehicles and the model manages to move into contact with the target, remove it and immediatly resolve a hit against the vehicle with a penetration value of +8.</description>
                 </rule>
               </rules>
               <infoLinks/>
               <modifiers/>
               <constraints>
-                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <categoryLinks/>
               <selectionEntries/>
@@ -2100,7 +2098,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="2.0"/>
+                <cost name="pts" costTypeId="points" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2498,7 +2496,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="33f6724b-4c90-0e6b-1258-30c3611b427d" name="Tank Hunters" hidden="false" targetId="8a586f8a-e228-4c31-1699-c8c837d2b0fd" type="rule">
+            <infoLink id="33f6724b-4c90-0e6b-1258-30c3611b427d" hidden="false" targetId="8a586f8a-e228-4c31-1699-c8c837d2b0fd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2512,7 +2510,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="2.0"/>
+            <cost name="pts" costTypeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6884,7 +6882,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e8452f39-79a9-abaf-adbb-762237124c33" name="Pintle-Mounted MMG (Front Arc)" hidden="false" targetId="42b8361c-97b0-f26d-846f-d375b805f779" type="selectionEntry">
+        <entryLink id="e8452f39-79a9-abaf-adbb-762237124c33" hidden="false" targetId="42b8361c-97b0-f26d-846f-d375b805f779" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7602,7 +7600,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="2.0"/>
+                <cost name="pts" costTypeId="points" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -7750,7 +7748,7 @@
                   <infoLinks/>
                   <modifiers/>
                 </infoLink>
-                <infoLink id="ba436aad-58ca-8794-4dd2-0df0dfabad09" name="Medium Mortar" hidden="false" targetId="934cfbcc-6d53-854d-7a31-1f27560f0c50" type="profile">
+                <infoLink id="ba436aad-58ca-8794-4dd2-0df0dfabad09" hidden="false" targetId="934cfbcc-6d53-854d-7a31-1f27560f0c50" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -7891,7 +7889,7 @@
                   <infoLinks/>
                   <modifiers/>
                 </infoLink>
-                <infoLink id="171e48bd-d1b9-9552-2250-9252602ed7ab" name="Light mortar" hidden="false" targetId="da71d317-6dfa-4a95-241e-bf93e30454d1" type="profile">
+                <infoLink id="171e48bd-d1b9-9552-2250-9252602ed7ab" hidden="false" targetId="da71d317-6dfa-4a95-241e-bf93e30454d1" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -8029,7 +8027,7 @@
                   <infoLinks/>
                   <modifiers/>
                 </infoLink>
-                <infoLink id="8fb284d6-ef14-8485-5703-09ee12a440ef" name="Heavy Mortar" hidden="false" targetId="1c03f8cb-54b2-df28-dab7-30ed4eecbf50" type="profile">
+                <infoLink id="8fb284d6-ef14-8485-5703-09ee12a440ef" hidden="false" targetId="1c03f8cb-54b2-df28-dab7-30ed4eecbf50" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -9879,7 +9877,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="2.0"/>
+                <cost name="pts" costTypeId="points" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -10033,7 +10031,7 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="650f-dc16-53b5-feb4" name="SMG" hidden="false" targetId="48a0-322d-3fd2-9425" type="selectionEntry">
+                <entryLink id="650f-dc16-53b5-feb4" hidden="false" targetId="518d-b721-7db4-033d" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -10065,7 +10063,7 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="b401-6e45-e3bb-c8a8" name="LMG" hidden="false" targetId="518d-b721-7db4-033d" type="selectionEntry">
+                <entryLink id="b401-6e45-e3bb-c8a8" hidden="false" targetId="48a0-322d-3fd2-9425" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -11038,7 +11036,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="cb6a-5abd-5f64-ff83" name="Medium AT Gun" hidden="false" targetId="e69afc1d-4039-43f4-7af3-d6e7936f61a0" type="selectionEntry">
+        <entryLink id="cb6a-5abd-5f64-ff83" hidden="false" targetId="e69afc1d-4039-43f4-7af3-d6e7936f61a0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11391,7 +11389,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="d07b11b9-e401-4fc5-38d5-217e3d98c4fb" name="Open Topped" hidden="false" targetId="a194d545-a4c7-b609-5e9a-2e82339215e9" type="rule">
+        <infoLink id="d07b11b9-e401-4fc5-38d5-217e3d98c4fb" hidden="false" targetId="a194d545-a4c7-b609-5e9a-2e82339215e9" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11541,7 +11539,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="9a4bf73d-315f-a582-bf58-8e45177ccee1" name="Light howitzer" hidden="false" targetId="1884d00f-327b-d79f-ef80-999cb5287a1c" type="profile">
+        <infoLink id="9a4bf73d-315f-a582-bf58-8e45177ccee1" hidden="false" targetId="1884d00f-327b-d79f-ef80-999cb5287a1c" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11722,7 +11720,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="b8b7adc1-fe40-a1d1-0a44-e8088811aa27" name="Turret Mounted Light Howitzer" hidden="false" targetId="b7b4377f-9034-10a0-ea41-bf76bc636564" type="selectionEntry">
+        <entryLink id="b8b7adc1-fe40-a1d1-0a44-e8088811aa27" hidden="false" targetId="b7b4377f-9034-10a0-ea41-bf76bc636564" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11730,7 +11728,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="ad6d761d-e775-5432-8eb6-2033f704d8a0" name="Forward Facing Hull Mounted MMG" hidden="false" targetId="c5f4fcbe-7e6d-c8f8-5232-96425ee2a78c" type="selectionEntry">
+        <entryLink id="ad6d761d-e775-5432-8eb6-2033f704d8a0" hidden="false" targetId="c5f4fcbe-7e6d-c8f8-5232-96425ee2a78c" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11738,7 +11736,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="ded45969-6916-751b-57bb-28fc937eab88" name="Turret-Mounted Rear-facing MMG" hidden="false" targetId="25d00099-45ee-0833-7bbc-491ede3daa01" type="selectionEntry">
+        <entryLink id="ded45969-6916-751b-57bb-28fc937eab88" hidden="false" targetId="25d00099-45ee-0833-7bbc-491ede3daa01" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12245,7 +12243,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="073fbcc7-bb81-543c-f2ca-bdc7dc8824e7" name="Amphibious" hidden="false" targetId="bfa01e6b-ab94-9d1c-6b05-236b6ef585ee" type="rule">
+        <infoLink id="073fbcc7-bb81-543c-f2ca-bdc7dc8824e7" hidden="false" targetId="bfa01e6b-ab94-9d1c-6b05-236b6ef585ee" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12320,7 +12318,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="ccb76b23-decc-97de-8ab9-24fc01d02c70" name="Turret Mounted Medium AT Gun" hidden="false" targetId="bce6519c-7f53-9b0a-0a88-a8601ffbc6a6" type="selectionEntry">
+        <entryLink id="ccb76b23-decc-97de-8ab9-24fc01d02c70" hidden="false" targetId="bce6519c-7f53-9b0a-0a88-a8601ffbc6a6" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12379,7 +12377,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="6bcd4462-4572-ad00-9be3-843cc26eabe3" name="Crew (5)" hidden="false" targetId="c6d6d93d-f5ae-c280-4654-5029e535a569" type="rule">
+        <infoLink id="6bcd4462-4572-ad00-9be3-843cc26eabe3" hidden="false" targetId="c6d6d93d-f5ae-c280-4654-5029e535a569" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12504,7 +12502,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="891da441-8fdb-4106-3822-2aa34edb7e7e" name="Heavy Howitzer" hidden="false" targetId="b9c47993-5e5c-a1dd-98f8-059be3c4e79c" type="selectionEntry">
+        <entryLink id="891da441-8fdb-4106-3822-2aa34edb7e7e" hidden="false" targetId="c3bf25e7-6973-604c-e963-da872fafab77" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12617,7 +12615,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="aab336d4-4140-b0a5-c5dc-f2e18e8ab828" name="Forward Facing Heavy Howitzer" hidden="false" targetId="efc7011d-1ddd-b839-6cd7-473bad74b530" type="selectionEntry">
+        <entryLink id="aab336d4-4140-b0a5-c5dc-f2e18e8ab828" hidden="false" targetId="82155e97-9972-52b9-af6d-3dd2166ac443" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12625,7 +12623,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="81b1-d097-2b7c-f35a" name="Command Vehicle" hidden="false" targetId="a4ac-3002-9cc6-aa10" type="selectionEntry">
+        <entryLink id="81b1-d097-2b7c-f35a" hidden="false" targetId="a4ac-3002-9cc6-aa10" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13042,9 +13040,9 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1aa6314a-e752-8552-0d66-cb7c9142aa59" name="Type 89 Yi-Go Medium Tank" page="0" hidden="false" collective="false" type="unit">
+    <selectionEntry id="1aa6314a-e752-8552-0d66-cb7c9142aa59" name="Type 88 Yi-Go Medium Tank" page="0" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="50572329-bb0c-e050-a7ca-600309f4b5c0" name="Type 89 Yi-Go Medium Tank" page="0" hidden="false" profileTypeId="aeeca1a9-3e42-7eda-24d1-e7e391c4cce9">
+        <profile id="50572329-bb0c-e050-a7ca-600309f4b5c0" name="Type 88 Yi-Go Medium Tank" page="0" hidden="false" profileTypeId="aeeca1a9-3e42-7eda-24d1-e7e391c4cce9">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13057,15 +13055,7 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="2e72-693c-ce4e-1c55" name="Slow" page="0" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>can only move 6&quot; when Advancing and 12&quot; when Running</description>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -13483,7 +13473,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="dc90980f-1255-af48-0b04-747690b3b4cc" name="Light Howitzer" hidden="false" targetId="0920d4db-59b4-c72d-0943-e4d71897b0e1" type="selectionEntry">
+        <entryLink id="dc90980f-1255-af48-0b04-747690b3b4cc" hidden="false" targetId="0920d4db-59b4-c72d-0943-e4d71897b0e1" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13611,7 +13601,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="61b07614-7f8f-b70f-3b29-f26fdf91c343" name="Turret-Mounted MMG" hidden="false" targetId="39639356-88e3-b132-2f68-7ddbe69a2269" type="selectionEntry">
+        <entryLink id="61b07614-7f8f-b70f-3b29-f26fdf91c343" hidden="false" targetId="053f2531-0d56-993a-7ad4-31d5339f7017" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13619,7 +13609,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="7065c33d-6904-3cfe-06fb-5e5dbf25a0f4" name="Forward Facing Hull Mounted HMG" hidden="false" targetId="e565-4652-8ecf-8016" type="selectionEntry">
+        <entryLink id="7065c33d-6904-3cfe-06fb-5e5dbf25a0f4" hidden="false" targetId="c5f4fcbe-7e6d-c8f8-5232-96425ee2a78c" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14027,7 +14017,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="878d4f3b-7320-fa09-944f-ef1b9216fa02" name="Light AT Gun" hidden="false" targetId="9da3ca1d-7d4e-3278-496a-96c334777c72" type="selectionEntry">
+        <entryLink id="878d4f3b-7320-fa09-944f-ef1b9216fa02" hidden="false" targetId="9da3ca1d-7d4e-3278-496a-96c334777c72" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14663,6 +14653,29 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
+                <cost name="pts" costTypeId="points" value="135.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ec42d52f-9440-8838-9e24-6e38d3d21dd9" name="Inexperienced" page="0" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="d465103b-53bc-b7a4-11c9-1a2e8ca75698" hidden="false" targetId="109d237f-140f-68df-f0a5-d09ffa18e6b6" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
                 <cost name="pts" costTypeId="points" value="150.0"/>
               </costs>
             </selectionEntry>
@@ -15142,7 +15155,7 @@
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="9ac2132d-0b22-eafb-868a-3e605a1cdf5f" name="Light automatic cannon" hidden="false" targetId="86ea648a-76f6-6a59-222d-dc0c52581b36" type="profile">
+                <infoLink id="9ac2132d-0b22-eafb-868a-3e605a1cdf5f" hidden="false" targetId="86ea648a-76f6-6a59-222d-dc0c52581b36" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -15672,30 +15685,6 @@
           <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e565-4652-8ecf-8016" name="Forward Facing Hull Mounted HMG" page="0" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="c9ff-474c-bce1-eb62" name="Heavy Machine Gun (HMG)" hidden="false" targetId="a28fc6be-65f0-d015-c528-15adca14d14a" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dcaf-797c-199b-786e" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4cd6-d742-604f-d5f9" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
@@ -16523,13 +16512,6 @@ Ignores the Gun Shield rule</description>
       <infoLinks/>
       <modifiers/>
       <description>Weak side armour means that all shots to the side oof the vehicle count as to the rear  with a +2 penetration modifier</description>
-    </rule>
-    <rule id="fa7a-1225-8094-159e" name="Flame-throwing Vehicle" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Flame-throwing vehicles are more likely to be destroyed, adding +1 to the damage roll when hit.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

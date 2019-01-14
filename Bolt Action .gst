@@ -1,5 +1,88 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="d373-d979-116c-5487" name="Bolt Action 2.0" revision="1" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+=======
+<?xml version="1.0" encoding="UTF-8"?><gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" battleScribeVersion="2.01" id="d373-d979-116c-5487" name="Bolt Action 2.0" revision="1">
+<categoryEntries>
+<categoryEntry id="0fcbe145-b362-4be0-2491-dbf2db078475" name="Free Units" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="481abf13-c03e-0dd0-d520-9f9837253cbe" name="Headquarters" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="5c47879b-41d0-1383-5fe5-a5989615db89" name="Infantry" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="a01f5f58-334c-8442-d861-15099ebdf5e5" name="Infantry Support" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="72807c5d-e370-9ddf-c2b7-de5d2797f24d" name="Artillery" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="f2903219-8ebc-8034-37ec-78a7f9040c20" name="Armoured Cars  and Recce Vehicles" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="c4c0ca91-937b-7bae-f553-abfea10f1483" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" name="Transports" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="55a12a58-a9e0-3acc-260d-ed2e4bac108f" name="Tows" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="b3073f4b-f974-1603-e5ea-b2ec953e496a" name="Armoured Headquarters" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="014468cf-931f-6d22-82c8-56acf4032768" name="ARV" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+</categoryEntries>
+>>>>>>> origin/master
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -29,6 +112,7 @@
       </characteristicTypes>
     </profileType>
   </profileTypes>
+<<<<<<< HEAD
   <categoryEntries>
     <categoryEntry id="0fcbe145-b362-4be0-2491-dbf2db078475" name="Free Units" hidden="false">
       <profiles/>
@@ -38,25 +122,335 @@
       <constraints/>
     </categoryEntry>
     <categoryEntry id="481abf13-c03e-0dd0-d520-9f9837253cbe" name="Headquarters" hidden="false">
+=======
+  <forceEntries>
+    <forceEntry id="ee766e00-0168-11be-e251-23243581de9e" name="Generic Reinforced Platoon" hidden="false">
+<categoryLinks>
+<categoryLink id="ee766e00-0168-11be-e251-23243581de9e-0fcbe145-b362-4be0-2491-dbf2db078475" targetId="0fcbe145-b362-4be0-2491-dbf2db078475" name="Free Units" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+<categoryLink id="ee766e00-0168-11be-e251-23243581de9e-481abf13-c03e-0dd0-d520-9f9837253cbe" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" name="Headquarters" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+<categoryLink id="ee766e00-0168-11be-e251-23243581de9e-5c47879b-41d0-1383-5fe5-a5989615db89" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" name="Infantry" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
+          </constraints>
+        </categoryLink>
+<categoryLink id="ee766e00-0168-11be-e251-23243581de9e-a01f5f58-334c-8442-d861-15099ebdf5e5" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" name="Infantry Support" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+<categoryLink id="ee766e00-0168-11be-e251-23243581de9e-72807c5d-e370-9ddf-c2b7-de5d2797f24d" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" name="Artillery" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
+          </constraints>
+        </categoryLink>
+<categoryLink id="ee766e00-0168-11be-e251-23243581de9e-f2903219-8ebc-8034-37ec-78a7f9040c20" targetId="f2903219-8ebc-8034-37ec-78a7f9040c20" name="Armoured Cars  and Recce Vehicles" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
+          </constraints>
+        </categoryLink>
+<categoryLink id="ee766e00-0168-11be-e251-23243581de9e-c4c0ca91-937b-7bae-f553-abfea10f1483" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
+          </constraints>
+        </categoryLink>
+<categoryLink id="ee766e00-0168-11be-e251-23243581de9e-963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" name="Transports" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="5c47879b-41d0-1383-5fe5-a5989615db89" repeats="1"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="a01f5f58-334c-8442-d861-15099ebdf5e5" repeats="1"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxSelections" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="481abf13-c03e-0dd0-d520-9f9837253cbe" repeats="1"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
+          </constraints>
+        </categoryLink>
+<categoryLink id="ee766e00-0168-11be-e251-23243581de9e-55a12a58-a9e0-3acc-260d-ed2e4bac108f" targetId="55a12a58-a9e0-3acc-260d-ed2e4bac108f" name="Tows" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" repeats="1"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
+          </constraints>
+        </categoryLink>
+</categoryLinks>
+>>>>>>> origin/master
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+<<<<<<< HEAD
     </categoryEntry>
     <categoryEntry id="5c47879b-41d0-1383-5fe5-a5989615db89" name="Infantry" hidden="false">
+=======
+      
+      <forceEntries/>
+    </forceEntry>
+    <forceEntry id="056da2ee-51e1-8f71-63fc-331beda2a35f" name="Allies" hidden="false">
+<categoryLinks>
+<categoryLink id="056da2ee-51e1-8f71-63fc-331beda2a35f-481abf13-c03e-0dd0-d520-9f9837253cbe" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" name="Headquarters" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+<categoryLink id="056da2ee-51e1-8f71-63fc-331beda2a35f-5c47879b-41d0-1383-5fe5-a5989615db89" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" name="Infantry" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+<categoryLink id="056da2ee-51e1-8f71-63fc-331beda2a35f-a01f5f58-334c-8442-d861-15099ebdf5e5" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" name="Infantry Support" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+<categoryLink id="056da2ee-51e1-8f71-63fc-331beda2a35f-72807c5d-e370-9ddf-c2b7-de5d2797f24d" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" name="Artillery" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+<categoryLink id="056da2ee-51e1-8f71-63fc-331beda2a35f-f2903219-8ebc-8034-37ec-78a7f9040c20" targetId="f2903219-8ebc-8034-37ec-78a7f9040c20" name="Armoured Cars and Recce Vehicles" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+<categoryLink id="056da2ee-51e1-8f71-63fc-331beda2a35f-c4c0ca91-937b-7bae-f553-abfea10f1483" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+<categoryLink id="056da2ee-51e1-8f71-63fc-331beda2a35f-963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" name="Transports" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+<categoryLink id="056da2ee-51e1-8f71-63fc-331beda2a35f-55a12a58-a9e0-3acc-260d-ed2e4bac108f" targetId="55a12a58-a9e0-3acc-260d-ed2e4bac108f" name="Tows" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+</categoryLinks>
+>>>>>>> origin/master
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+<<<<<<< HEAD
     </categoryEntry>
     <categoryEntry id="a01f5f58-334c-8442-d861-15099ebdf5e5" name="Infantry Support" hidden="false">
+=======
+      
+      <forceEntries/>
+    </forceEntry>
+    <forceEntry id="65adb98b-fe4f-d2c8-ef82-8b1876bedd1d" name="Armoured Platoon" hidden="false">
+<categoryLinks>
+<categoryLink id="65adb98b-fe4f-d2c8-ef82-8b1876bedd1d-0fcbe145-b362-4be0-2491-dbf2db078475" targetId="0fcbe145-b362-4be0-2491-dbf2db078475" name="Free Units" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+<categoryLink id="65adb98b-fe4f-d2c8-ef82-8b1876bedd1d-b3073f4b-f974-1603-e5ea-b2ec953e496a" targetId="b3073f4b-f974-1603-e5ea-b2ec953e496a" name="Armoured Headquarters" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
+          </constraints>
+        </categoryLink>
+<categoryLink id="65adb98b-fe4f-d2c8-ef82-8b1876bedd1d-5c47879b-41d0-1383-5fe5-a5989615db89" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" name="Infantry" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
+          </constraints>
+        </categoryLink>
+<categoryLink id="65adb98b-fe4f-d2c8-ef82-8b1876bedd1d-a01f5f58-334c-8442-d861-15099ebdf5e5" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" name="Infantry Support" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+<categoryLink id="65adb98b-fe4f-d2c8-ef82-8b1876bedd1d-72807c5d-e370-9ddf-c2b7-de5d2797f24d" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" name="Artillery" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
+          </constraints>
+        </categoryLink>
+<categoryLink id="65adb98b-fe4f-d2c8-ef82-8b1876bedd1d-f2903219-8ebc-8034-37ec-78a7f9040c20" targetId="f2903219-8ebc-8034-37ec-78a7f9040c20" name="Armoured Cars and Recce Vehicles" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="decrement" field="minSelections" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="c4c0ca91-937b-7bae-f553-abfea10f1483" repeats="1"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="c4c0ca91-937b-7bae-f553-abfea10f1483" repeats="1"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
+          </constraints>
+        </categoryLink>
+<categoryLink id="65adb98b-fe4f-d2c8-ef82-8b1876bedd1d-c4c0ca91-937b-7bae-f553-abfea10f1483" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="decrement" field="minSelections" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="f2903219-8ebc-8034-37ec-78a7f9040c20" repeats="1"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="maxSelections" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="f2903219-8ebc-8034-37ec-78a7f9040c20" repeats="1"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
+          </constraints>
+        </categoryLink>
+<categoryLink id="65adb98b-fe4f-d2c8-ef82-8b1876bedd1d-55a12a58-a9e0-3acc-260d-ed2e4bac108f" targetId="55a12a58-a9e0-3acc-260d-ed2e4bac108f" name="Tows" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="minSelections" value="1.0">
+              <repeats>
+                <repeat field="points" scope="force" value="1.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="false" childId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" repeats="1"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+          </constraints>
+        </categoryLink>
+<categoryLink id="65adb98b-fe4f-d2c8-ef82-8b1876bedd1d-963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" name="Transports" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+<categoryLink id="65adb98b-fe4f-d2c8-ef82-8b1876bedd1d-014468cf-931f-6d22-82c8-56acf4032768" targetId="014468cf-931f-6d22-82c8-56acf4032768" name="ARV" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+</categoryLinks>
+>>>>>>> origin/master
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+<<<<<<< HEAD
     </categoryEntry>
     <categoryEntry id="72807c5d-e370-9ddf-c2b7-de5d2797f24d" name="Artillery" hidden="false">
       <profiles/>
@@ -128,6 +522,9 @@
         </modifier>
       </modifiers>
       <constraints/>
+=======
+      
+>>>>>>> origin/master
       <forceEntries/>
       <categoryLinks/>
     </forceEntry>
@@ -444,6 +841,10 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
+<<<<<<< HEAD
+=======
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="65adb98b-fe4f-d2c8-ef82-8b1876bedd1d" type="instanceOf"/>
+>>>>>>> origin/master
                 <condition field="selections" scope="primary-category" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b3073f4b-f974-1603-e5ea-b2ec953e496a" type="instanceOf"/>
               </conditions>
               <conditionGroups/>
@@ -2579,7 +2980,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Bicycle mounted infantry follow the same rules as infantry, except when mving entirely on a road, in which case they double their Run move to 24&quot;.  (This move cannot be used to Assault). In addition, the first time they receive any order other than Run, or if they receive a pinning marker, they dismount and abandon their bycycles for the rest of the game - replace the models with models on foot. </description>
+      <description>Bicycle mounted infantry follow the same rules as infantry, except when mving entirely on a road, in which case they double their Run move to 24".  (This move cannot be used to Assault). In addition, the first time they receive any order other than Run, or if they receive a pinning marker, they dismount and abandon their bycycles for the rest of the game - replace the models with models on foot. </description>
     </rule>
     <rule id="525c-47c4-f59c-5c9a" name="Cavalry" page="0" hidden="false">
       <profiles/>
@@ -2592,7 +2993,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A coa-axial can be fired instead of the vehicle&apos;s main weapon, but not at the same time - the player must choose either to fire the main gun or it&apos;s co-axial weapon.</description>
+      <description>A coa-axial can be fired instead of the vehicle's main weapon, but not at the same time - the player must choose either to fire the main gun or it's co-axial weapon.</description>
     </rule>
     <rule id="f3b7-7c2b-d71f-b029" name="Command Vehicle" page="0" hidden="false">
       <profiles/>
@@ -2721,7 +3122,7 @@ D6 Hits, D2 Pin Markers, +2 PEN</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>All shots hitting the front of the vehicle counts it&apos;s damage value as +1</description>
+      <description>All shots hitting the front of the vehicle counts it's damage value as +1</description>
     </rule>
     <rule id="c00e-1e20-9232-6489" name="Howitzer" page="0" hidden="false">
       <profiles/>
@@ -2729,7 +3130,7 @@ D6 Hits, D2 Pin Markers, +2 PEN</description>
       <infoLinks/>
       <modifiers/>
       <description>When firing over open sights it has no minimum range
-When firing indirect, minimum range is 24&quot;</description>
+When firing indirect, minimum range is 24"</description>
     </rule>
     <rule id="f319-9266-b94b-8723" name="Indirect Fire" page="0" hidden="false">
       <profiles/>
@@ -2748,7 +3149,7 @@ Can fire Smoke Screens</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Low velocity light AT-gun&apos;s armour penetration counts as +3 instead of +4</description>
+      <description>Low velocity light AT-gun's armour penetration counts as +3 instead of +4</description>
     </rule>
     <rule id="409b-73cd-c33e-de6b" name="Massive shells" page="0" hidden="false">
       <profiles/>
@@ -2762,7 +3163,7 @@ Can fire Smoke Screens</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Being in proximity of an ambulance means that any wounded soldiers neaby hae a chance of being treated by a medic or stretcher bearer from amongst the crew of the ambulance. All infantry and artillery units within 6&quot; of the vehicle count as within 6&quot; of a medic.</description>
+      <description>Being in proximity of an ambulance means that any wounded soldiers neaby hae a chance of being treated by a medic or stretcher bearer from amongst the crew of the ambulance. All infantry and artillery units within 6" of the vehicle count as within 6" of a medic.</description>
     </rule>
     <rule id="a9e6-1bf4-b097-df12" name="Motorbikes" page="0" hidden="false">
       <profiles/>
@@ -2775,7 +3176,7 @@ Can fire Smoke Screens</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A multiple launcher counts as a heavy mortar, but it&apos;s chance of hitting never gets any better than a 6.However, because of the extensive blast area all units (friend or foe) within 6&quot; of the nominated target and not entirely within the weapon&apos;s minimum range can be hit. Roll a die to hit for the target plus every unit within 6&quot; of it. Note that units that lie beyond the weapon&apos;s maximum range can also be hit in this way - although the target unit itself must be withiin range. </description>
+      <description>A multiple launcher counts as a heavy mortar, but it's chance of hitting never gets any better than a 6.However, because of the extensive blast area all units (friend or foe) within 6" of the nominated target and not entirely within the weapon's minimum range can be hit. Roll a die to hit for the target plus every unit within 6" of it. Note that units that lie beyond the weapon's maximum range can also be hit in this way - although the target unit itself must be withiin range. </description>
     </rule>
     <rule id="cd1a-40cd-89df-5e3e" name="One-man turret" page="0" hidden="false">
       <profiles/>
@@ -2833,7 +3234,7 @@ When Pinned always count Pinned Markers as Double, ie one Pin Marker gives a -2 
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>can only move 6&quot; when Advancing and 12&quot; when Running</description>
+      <description>can only move 6" when Advancing and 12" when Running</description>
     </rule>
     <rule id="6bcb-f463-20a7-0b4a" name="Sniper" page="0" hidden="false">
       <profiles/>
@@ -2841,7 +3242,7 @@ When Pinned always count Pinned Markers as Double, ie one Pin Marker gives a -2 
       <infoLinks/>
       <modifiers/>
       <description>When firing under Fire or Ambush orders only:
-Range is 36&quot; and hits at +1
+Range is 36" and hits at +1
 Can target a specific model as per Exceptional Damage
 Ignores all penalties for cover
 Ignores the Gun Shield rule</description>
@@ -2851,7 +3252,7 @@ Ignores the Gun Shield rule</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>At ranges up to 12&quot;, it&apos;s base armour penetration is increased by 2, at over half range armour penetration is reduced by 2 instead of the normal 1.</description>
+      <description>At ranges up to 12", it's base armour penetration is increased by 2, at over half range armour penetration is reduced by 2 instead of the normal 1.</description>
     </rule>
     <rule id="3b00-5743-842c-4640" name="Tank Hunters" page="0" hidden="false">
       <profiles/>
@@ -2872,7 +3273,7 @@ Ignores the Gun Shield rule</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Can execute a full speed run rate &apos;reverse&apos;, finishing the move facing in the direction of travel.</description>
+      <description>Can execute a full speed run rate 'reverse', finishing the move facing in the direction of travel.</description>
     </rule>
     <rule id="b1fd-afcf-5e8c-d75a" name="Unreliable" page="0" hidden="false">
       <profiles/>

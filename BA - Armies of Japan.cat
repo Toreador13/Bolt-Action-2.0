@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<<<<<<< HEAD
 <catalogue id="061a-20e7-b03d-2efa" name="Armies of Imperial Japan" revision="11" battleScribeVersion="2.01" gameSystemId="d373-d979-116c-5487" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+=======
+<catalogue id="061a-20e7-b03d-2efa" name="Armies of Imperial Japan" revision="12" battleScribeVersion="2.01" gameSystemId="d373-d979-116c-5487" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+>>>>>>> origin/master
   <profiles/>
   <rules>
     <rule id="a47d1ec8-07e9-2bf0-7275-169d82b3a4c9" name="Banzai Charge" page="0" hidden="false">
@@ -7,20 +11,21 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If a Japanese infantry unit is ordered to Run towards (or Charge) the closes visible enemy, an Order test for that mvoe is automatically passed, as if the unit had rolled a double one. All models in the unit must then be moved directly towards one of the models in the target unit, and must make contact with the target unit if possible. Note that a unit can be ordere to Run/Charge in another direction, but in that case it will follow the normal rules and the Banzai Charge rule has no effect. </description>
+      <description>If a Japanese infantry unit is ordered to Run towards (or Charge) the closes visible enemy, an Order test for that move is automatically passed, as if the unit had rolled a double one. All models in the unit must then be moved directly towards one of the models in the target unit, and must make contact with the target unit if possible. Note that a unit can be ordered to Run/Charge in another direction, but in that case it will follow the normal rules and the Banzai Charge rule has no effect. </description>
     </rule>
-    <rule id="9840168d-30b9-4f77-f5b3-2fc9de866042" name="Death Before Dsihonour" page="0" hidden="false">
+    <rule id="9840168d-30b9-4f77-f5b3-2fc9de866042" name="Death Before Dishonour" page="0" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Every unit int his list has the Fanatics special rule. In addition, infantry and artillery units utomatically pass morale checks for being assaulted by enemy tanks (note that artillery pieces are still destroyed as normal).</description>
+      <description>Every unit int his list has the Fanatics special rule. In addition, infantry and artillery units automatically pass morale checks for being assaulted by enemy tanks (note that artillery pieces are still destroyed as normal).</description>
     </rule>
     <rule id="167f8f35-3292-e569-5e6d-9b94d629477a" name="Ambush Tactics" page="0" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>During set-up, any Japanese unit starting the game hidden may start the game already in Ambush. If you decide to do so, set one of your order down next to them, as if you had ordered them to Ambush.</description>
     </rule>
   </rules>
   <infoLinks>
@@ -55,6 +60,7 @@
   </infoLinks>
   <costTypes/>
   <profileTypes/>
+<<<<<<< HEAD
   <categoryEntries>
     <categoryEntry id="54a8-3610-055a-d296" name="Free Units" hidden="false">
       <profiles/>
@@ -574,6 +580,10 @@
       </categoryLinks>
     </forceEntry>
   </forceEntries>
+=======
+  <categoryEntries/>
+  <forceEntries/>
+>>>>>>> origin/master
   <selectionEntries/>
   <entryLinks>
     <entryLink id="f005-30c5-5cea-3165" hidden="false" targetId="5932b2c8-0857-e199-b1de-41ad22c961d5" type="selectionEntry">
@@ -592,7 +602,11 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
+<<<<<<< HEAD
     <entryLink id="03a4-8f5c-6be0-8093" hidden="false" targetId="01937da2-b36e-e36d-6466-bd24ea8048af" type="selectionEntry">
+=======
+    <entryLink id="03a4-8f5c-6be0-8093" name="High Ranking Officer" hidden="false" targetId="01937da2-b36e-e36d-6466-bd24ea8048af" type="selectionEntry">
+>>>>>>> origin/master
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -640,7 +654,11 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
+<<<<<<< HEAD
     <entryLink id="ce29-4698-0728-2d93" hidden="false" targetId="c179b253-804c-db7d-50c4-0bfaac8aa7d9" type="selectionEntry">
+=======
+    <entryLink id="ce29-4698-0728-2d93" name="Platoon Commander" hidden="false" targetId="c179b253-804c-db7d-50c4-0bfaac8aa7d9" type="selectionEntry">
+>>>>>>> origin/master
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -784,7 +802,11 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
+<<<<<<< HEAD
     <entryLink id="6d86-9485-fc1f-ea24" hidden="false" targetId="9bcd96dc-bda6-c4a7-d239-6997921420e6" type="selectionEntry">
+=======
+    <entryLink id="6d86-9485-fc1f-ea24" name="SNLF Grenadier Squad" hidden="false" targetId="9bcd96dc-bda6-c4a7-d239-6997921420e6" type="selectionEntry">
+>>>>>>> origin/master
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -912,7 +934,11 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
+<<<<<<< HEAD
     <entryLink id="88eb-cf07-2cd2-1879" hidden="false" targetId="6df5389b-4ea3-ce6c-5d1e-d84770ea6ce4" type="selectionEntry">
+=======
+    <entryLink id="88eb-cf07-2cd2-1879" name="75mm Field Gun" hidden="false" targetId="6df5389b-4ea3-ce6c-5d1e-d84770ea6ce4" type="selectionEntry">
+>>>>>>> origin/master
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1894,7 +1920,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="df7487f6-6a42-148a-a05f-30175856dc2b" hidden="false" targetId="5cf77de7-0fc3-71a8-4933-70b4a81ad0cb" type="profile">
+        <infoLink id="df7487f6-6a42-148a-a05f-30175856dc2b" name="Medium Machine Gun (MMG)" hidden="false" targetId="5cf77de7-0fc3-71a8-4933-70b4a81ad0cb" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1996,7 +2022,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="1f888e50-deea-718d-8b57-e74b4063b83a" hidden="false" targetId="75a15bd5-b7f9-eb24-bf97-f6517ea3b4b4" type="rule">
+        <infoLink id="1f888e50-deea-718d-8b57-e74b4063b83a" name="Fixed" hidden="false" targetId="75a15bd5-b7f9-eb24-bf97-f6517ea3b4b4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2008,7 +2034,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="20cb7c8b-e8e2-a47b-7e6d-733908491420" hidden="false" targetId="1e23b695-97f3-2125-d7bf-95a6f63eb66b" type="rule">
+        <infoLink id="20cb7c8b-e8e2-a47b-7e6d-733908491420" name="Crew (4)" hidden="false" targetId="1e23b695-97f3-2125-d7bf-95a6f63eb66b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2194,18 +2220,20 @@
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
+                  <description>Suicide Anti-Tank team count as Observers/Snipers for the purposes of set-up.</description>
                 </rule>
                 <rule id="a2da20e9-ad54-d877-ff6f-770462e4196d" name="Kamikaze" page="0" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
+                  <description>If a suicide anti-tank team assualts an enemy vehicles and the model manages to move into contact with the target, remove it and immediatly resolve a hit against the vehicle with a penetration value of +8.</description>
                 </rule>
               </rules>
               <infoLinks/>
               <modifiers/>
               <constraints>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <categoryLinks/>
               <selectionEntries/>
@@ -2614,7 +2642,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="3.0"/>
+                <cost name="pts" costTypeId="points" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2939,7 +2967,11 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
+<<<<<<< HEAD
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7c10-d760-d832-053f" type="instanceOf"/>
+=======
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="65adb98b-fe4f-d2c8-ef82-8b1876bedd1d" type="instanceOf"/>
+>>>>>>> origin/master
                 <condition field="selections" scope="primary-category" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b3073f4b-f974-1603-e5ea-b2ec953e496a" type="instanceOf"/>
               </conditions>
               <conditionGroups/>
@@ -3012,7 +3044,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="33f6724b-4c90-0e6b-1258-30c3611b427d" hidden="false" targetId="8a586f8a-e228-4c31-1699-c8c837d2b0fd" type="rule">
+            <infoLink id="33f6724b-4c90-0e6b-1258-30c3611b427d" name="Tank Hunters" hidden="false" targetId="8a586f8a-e228-4c31-1699-c8c837d2b0fd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3026,7 +3058,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="4.0"/>
+            <cost name="pts" costTypeId="points" value="2.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5347,7 +5379,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="3.0"/>
+                <cost name="pts" costTypeId="points" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5550,7 +5582,7 @@
               </infoLinks>
               <modifiers/>
               <constraints>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <categoryLinks/>
               <selectionEntries>
@@ -5650,7 +5682,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="3.0"/>
+                <cost name="pts" costTypeId="points" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5838,7 +5870,7 @@
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="9b5d-a290-21d2-75a9" hidden="false" targetId="84ac532d-2657-cb2d-c314-9ef981f39bc9" type="profile">
+                <infoLink id="9b5d-a290-21d2-75a9" name="Regular" hidden="false" targetId="84ac532d-2657-cb2d-c314-9ef981f39bc9" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -5853,7 +5885,7 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="7134-18de-a94f-a429" hidden="false" targetId="518d-b721-7db4-033d" type="selectionEntry">
+                <entryLink id="7134-18de-a94f-a429" name="LMG" hidden="false" targetId="518d-b721-7db4-033d" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -6154,7 +6186,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="3.0"/>
+                <cost name="pts" costTypeId="points" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6410,7 +6442,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="3.0"/>
+                <cost name="pts" costTypeId="points" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6606,7 +6638,7 @@
               </infoLinks>
               <modifiers/>
               <constraints>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <categoryLinks/>
               <selectionEntries>
@@ -6646,7 +6678,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="10.0"/>
+                <cost name="pts" costTypeId="points" value="13.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6706,7 +6738,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="3.0"/>
+                <cost name="pts" costTypeId="points" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6940,6 +6972,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
+          <description>When a unit rolls for it&apos;s Green roll and a Kempeitai Officer is within 6&quot;, the player may choose to re-roll the Green result.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -7397,7 +7430,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e8452f39-79a9-abaf-adbb-762237124c33" hidden="false" targetId="42b8361c-97b0-f26d-846f-d375b805f779" type="selectionEntry">
+        <entryLink id="e8452f39-79a9-abaf-adbb-762237124c33" name="Pintle-Mounted MMG (Front Arc)" hidden="false" targetId="42b8361c-97b0-f26d-846f-d375b805f779" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8115,7 +8148,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="3.0"/>
+                <cost name="pts" costTypeId="points" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -8263,7 +8296,7 @@
                   <infoLinks/>
                   <modifiers/>
                 </infoLink>
-                <infoLink id="ba436aad-58ca-8794-4dd2-0df0dfabad09" hidden="false" targetId="934cfbcc-6d53-854d-7a31-1f27560f0c50" type="profile">
+                <infoLink id="ba436aad-58ca-8794-4dd2-0df0dfabad09" name="Medium Mortar" hidden="false" targetId="934cfbcc-6d53-854d-7a31-1f27560f0c50" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -8404,7 +8437,7 @@
                   <infoLinks/>
                   <modifiers/>
                 </infoLink>
-                <infoLink id="171e48bd-d1b9-9552-2250-9252602ed7ab" hidden="false" targetId="da71d317-6dfa-4a95-241e-bf93e30454d1" type="profile">
+                <infoLink id="171e48bd-d1b9-9552-2250-9252602ed7ab" name="Light mortar" hidden="false" targetId="da71d317-6dfa-4a95-241e-bf93e30454d1" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -8542,7 +8575,7 @@
                   <infoLinks/>
                   <modifiers/>
                 </infoLink>
-                <infoLink id="8fb284d6-ef14-8485-5703-09ee12a440ef" hidden="false" targetId="1c03f8cb-54b2-df28-dab7-30ed4eecbf50" type="profile">
+                <infoLink id="8fb284d6-ef14-8485-5703-09ee12a440ef" name="Heavy Mortar" hidden="false" targetId="1c03f8cb-54b2-df28-dab7-30ed4eecbf50" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -10113,7 +10146,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="3.0"/>
+                <cost name="pts" costTypeId="points" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -10392,7 +10425,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="3.0"/>
+                <cost name="pts" costTypeId="points" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -10546,7 +10579,7 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="650f-dc16-53b5-feb4" hidden="false" targetId="518d-b721-7db4-033d" type="selectionEntry">
+                <entryLink id="650f-dc16-53b5-feb4" name="SMG" hidden="false" targetId="48a0-322d-3fd2-9425" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -10578,7 +10611,7 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="b401-6e45-e3bb-c8a8" hidden="false" targetId="48a0-322d-3fd2-9425" type="selectionEntry">
+                <entryLink id="b401-6e45-e3bb-c8a8" name="LMG" hidden="false" targetId="518d-b721-7db4-033d" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -10648,7 +10681,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="3.0"/>
+                <cost name="pts" costTypeId="points" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -10671,7 +10704,11 @@
           </constraints>
           <categoryLinks/>
           <selectionEntries>
+<<<<<<< HEAD
             <selectionEntry id="2a835ca8-84f9-a5e7-fbb6-f9e6207550ac" name="Regular NCO" page="0" hidden="false" collective="false" type="model">
+=======
+            <selectionEntry id="2a835ca8-84f9-a5e7-fbb6-f9e6207550ac" name="Veteran NCO" page="0" hidden="false" collective="false" type="model">
+>>>>>>> origin/master
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -10750,11 +10787,15 @@
                 <cost name="pts" costTypeId="points" value="13.0"/>
               </costs>
             </selectionEntry>
+<<<<<<< HEAD
             <selectionEntry id="ebd7f4b5-8935-0e57-b2f0-fb1652570d80" name="Regular Soldier" page="0" hidden="false" collective="false" type="upgrade">
+=======
+            <selectionEntry id="ebd7f4b5-8935-0e57-b2f0-fb1652570d80" name="Veteran Soldier" page="0" hidden="false" collective="false" type="upgrade">
+>>>>>>> origin/master
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="102d537a-1516-b112-62ca-0d77bfbad677" hidden="false" targetId="84ac532d-2657-cb2d-c314-9ef981f39bc9" type="profile">
+                <infoLink id="102d537a-1516-b112-62ca-0d77bfbad677" name="Veteran" hidden="false" targetId="3ffe9a5e-48cc-2400-5d45-7526a1e19df7" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -10783,11 +10824,15 @@
                 <cost name="pts" costTypeId="points" value="13.0"/>
               </costs>
             </selectionEntry>
+<<<<<<< HEAD
             <selectionEntry id="d50a-cdc4-d64a-8737" name="Regular Soldier with LMG" page="0" hidden="false" collective="false" type="upgrade">
+=======
+            <selectionEntry id="d50a-cdc4-d64a-8737" name="Veteran Soldier with LMG" page="0" hidden="false" collective="false" type="upgrade">
+>>>>>>> origin/master
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="efea-e5fc-b7e1-f4f5" hidden="false" targetId="84ac532d-2657-cb2d-c314-9ef981f39bc9" type="profile">
+                <infoLink id="efea-e5fc-b7e1-f4f5" name="Veteran" hidden="false" targetId="3ffe9a5e-48cc-2400-5d45-7526a1e19df7" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -10802,7 +10847,7 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="06b5-f064-efb6-b0bf" hidden="false" targetId="518d-b721-7db4-033d" type="selectionEntry">
+                <entryLink id="06b5-f064-efb6-b0bf" name="LMG" hidden="false" targetId="518d-b721-7db4-033d" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -10812,14 +10857,18 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" costTypeId="points" value="10.0"/>
+                <cost name="pts" costTypeId="points" value="13.0"/>
               </costs>
             </selectionEntry>
+<<<<<<< HEAD
             <selectionEntry id="861c-7e63-f3a8-0eda" name="Regular Soldier with SMG" page="0" hidden="false" collective="false" type="upgrade">
+=======
+            <selectionEntry id="861c-7e63-f3a8-0eda" name="Veteran Soldier with SMG" page="0" hidden="false" collective="false" type="upgrade">
+>>>>>>> origin/master
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="d6b1-4908-6cb8-51ac" hidden="false" targetId="84ac532d-2657-cb2d-c314-9ef981f39bc9" type="profile">
+                <infoLink id="d6b1-4908-6cb8-51ac" name="Veteran" hidden="false" targetId="3ffe9a5e-48cc-2400-5d45-7526a1e19df7" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -10834,7 +10883,7 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="f345-9959-af8e-02f1" hidden="false" targetId="48a0-322d-3fd2-9425" type="selectionEntry">
+                <entryLink id="f345-9959-af8e-02f1" name="SMG" hidden="false" targetId="48a0-322d-3fd2-9425" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -10844,7 +10893,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" costTypeId="points" value="10.0"/>
+                <cost name="pts" costTypeId="points" value="13.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -11551,7 +11600,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="cb6a-5abd-5f64-ff83" hidden="false" targetId="e69afc1d-4039-43f4-7af3-d6e7936f61a0" type="selectionEntry">
+        <entryLink id="cb6a-5abd-5f64-ff83" name="Medium AT Gun" hidden="false" targetId="e69afc1d-4039-43f4-7af3-d6e7936f61a0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11904,7 +11953,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="d07b11b9-e401-4fc5-38d5-217e3d98c4fb" hidden="false" targetId="a194d545-a4c7-b609-5e9a-2e82339215e9" type="rule">
+        <infoLink id="d07b11b9-e401-4fc5-38d5-217e3d98c4fb" name="Open Topped" hidden="false" targetId="a194d545-a4c7-b609-5e9a-2e82339215e9" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12054,7 +12103,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="9a4bf73d-315f-a582-bf58-8e45177ccee1" hidden="false" targetId="1884d00f-327b-d79f-ef80-999cb5287a1c" type="profile">
+        <infoLink id="9a4bf73d-315f-a582-bf58-8e45177ccee1" name="Light howitzer" hidden="false" targetId="1884d00f-327b-d79f-ef80-999cb5287a1c" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12235,7 +12284,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="b8b7adc1-fe40-a1d1-0a44-e8088811aa27" hidden="false" targetId="b7b4377f-9034-10a0-ea41-bf76bc636564" type="selectionEntry">
+        <entryLink id="b8b7adc1-fe40-a1d1-0a44-e8088811aa27" name="Turret Mounted Light Howitzer" hidden="false" targetId="b7b4377f-9034-10a0-ea41-bf76bc636564" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12243,7 +12292,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="ad6d761d-e775-5432-8eb6-2033f704d8a0" hidden="false" targetId="c5f4fcbe-7e6d-c8f8-5232-96425ee2a78c" type="selectionEntry">
+        <entryLink id="ad6d761d-e775-5432-8eb6-2033f704d8a0" name="Forward Facing Hull Mounted MMG" hidden="false" targetId="c5f4fcbe-7e6d-c8f8-5232-96425ee2a78c" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12251,7 +12300,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="ded45969-6916-751b-57bb-28fc937eab88" hidden="false" targetId="25d00099-45ee-0833-7bbc-491ede3daa01" type="selectionEntry">
+        <entryLink id="ded45969-6916-751b-57bb-28fc937eab88" name="Turret-Mounted Rear-facing MMG" hidden="false" targetId="25d00099-45ee-0833-7bbc-491ede3daa01" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12758,7 +12807,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="073fbcc7-bb81-543c-f2ca-bdc7dc8824e7" hidden="false" targetId="bfa01e6b-ab94-9d1c-6b05-236b6ef585ee" type="rule">
+        <infoLink id="073fbcc7-bb81-543c-f2ca-bdc7dc8824e7" name="Amphibious" hidden="false" targetId="bfa01e6b-ab94-9d1c-6b05-236b6ef585ee" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12833,7 +12882,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="ccb76b23-decc-97de-8ab9-24fc01d02c70" hidden="false" targetId="bce6519c-7f53-9b0a-0a88-a8601ffbc6a6" type="selectionEntry">
+        <entryLink id="ccb76b23-decc-97de-8ab9-24fc01d02c70" name="Turret Mounted Medium AT Gun" hidden="false" targetId="bce6519c-7f53-9b0a-0a88-a8601ffbc6a6" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12892,7 +12941,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="6bcd4462-4572-ad00-9be3-843cc26eabe3" hidden="false" targetId="c6d6d93d-f5ae-c280-4654-5029e535a569" type="rule">
+        <infoLink id="6bcd4462-4572-ad00-9be3-843cc26eabe3" name="Crew (5)" hidden="false" targetId="c6d6d93d-f5ae-c280-4654-5029e535a569" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13017,7 +13066,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="891da441-8fdb-4106-3822-2aa34edb7e7e" hidden="false" targetId="c3bf25e7-6973-604c-e963-da872fafab77" type="selectionEntry">
+        <entryLink id="891da441-8fdb-4106-3822-2aa34edb7e7e" name="Heavy Howitzer" hidden="false" targetId="b9c47993-5e5c-a1dd-98f8-059be3c4e79c" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13130,7 +13179,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="aab336d4-4140-b0a5-c5dc-f2e18e8ab828" hidden="false" targetId="82155e97-9972-52b9-af6d-3dd2166ac443" type="selectionEntry">
+        <entryLink id="aab336d4-4140-b0a5-c5dc-f2e18e8ab828" name="Forward Facing Heavy Howitzer" hidden="false" targetId="efc7011d-1ddd-b839-6cd7-473bad74b530" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13138,7 +13187,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="81b1-d097-2b7c-f35a" hidden="false" targetId="a4ac-3002-9cc6-aa10" type="selectionEntry">
+        <entryLink id="81b1-d097-2b7c-f35a" name="Command Vehicle" hidden="false" targetId="a4ac-3002-9cc6-aa10" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13555,9 +13604,13 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+<<<<<<< HEAD
     <selectionEntry id="1aa6314a-e752-8552-0d66-cb7c9142aa59" name="Type 88 Yi-Go Medium Tank" page="0" hidden="false" collective="false" type="unit">
+=======
+    <selectionEntry id="1aa6314a-e752-8552-0d66-cb7c9142aa59" name="Type 89 Yi-Go Medium Tank" page="0" hidden="false" collective="false" type="unit">
+>>>>>>> origin/master
       <profiles>
-        <profile id="50572329-bb0c-e050-a7ca-600309f4b5c0" name="Type 88 Yi-Go Medium Tank" page="0" hidden="false" profileTypeId="aeeca1a9-3e42-7eda-24d1-e7e391c4cce9">
+        <profile id="50572329-bb0c-e050-a7ca-600309f4b5c0" name="Type 89 Yi-Go Medium Tank" page="0" hidden="false" profileTypeId="aeeca1a9-3e42-7eda-24d1-e7e391c4cce9">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13570,7 +13623,15 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="2e72-693c-ce4e-1c55" name="Slow" page="0" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>can only move 6&quot; when Advancing and 12&quot; when Running</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -13988,7 +14049,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="dc90980f-1255-af48-0b04-747690b3b4cc" hidden="false" targetId="0920d4db-59b4-c72d-0943-e4d71897b0e1" type="selectionEntry">
+        <entryLink id="dc90980f-1255-af48-0b04-747690b3b4cc" name="Light Howitzer" hidden="false" targetId="0920d4db-59b4-c72d-0943-e4d71897b0e1" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14116,7 +14177,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="61b07614-7f8f-b70f-3b29-f26fdf91c343" hidden="false" targetId="053f2531-0d56-993a-7ad4-31d5339f7017" type="selectionEntry">
+        <entryLink id="61b07614-7f8f-b70f-3b29-f26fdf91c343" name="Turret-Mounted MMG" hidden="false" targetId="39639356-88e3-b132-2f68-7ddbe69a2269" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14124,7 +14185,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="7065c33d-6904-3cfe-06fb-5e5dbf25a0f4" hidden="false" targetId="c5f4fcbe-7e6d-c8f8-5232-96425ee2a78c" type="selectionEntry">
+        <entryLink id="7065c33d-6904-3cfe-06fb-5e5dbf25a0f4" name="Forward Facing Hull Mounted HMG" hidden="false" targetId="e565-4652-8ecf-8016" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14532,7 +14593,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="878d4f3b-7320-fa09-944f-ef1b9216fa02" hidden="false" targetId="9da3ca1d-7d4e-3278-496a-96c334777c72" type="selectionEntry">
+        <entryLink id="878d4f3b-7320-fa09-944f-ef1b9216fa02" name="Light AT Gun" hidden="false" targetId="9da3ca1d-7d4e-3278-496a-96c334777c72" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15164,6 +15225,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <categoryLinks/>
+<<<<<<< HEAD
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -15187,6 +15249,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <categoryLinks/>
+=======
+>>>>>>> origin/master
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -15670,7 +15734,7 @@
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="9ac2132d-0b22-eafb-868a-3e605a1cdf5f" hidden="false" targetId="86ea648a-76f6-6a59-222d-dc0c52581b36" type="profile">
+                <infoLink id="9ac2132d-0b22-eafb-868a-3e605a1cdf5f" name="Light automatic cannon" hidden="false" targetId="86ea648a-76f6-6a59-222d-dc0c52581b36" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -16205,6 +16269,30 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="e565-4652-8ecf-8016" name="Forward Facing Hull Mounted HMG" page="0" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c9ff-474c-bce1-eb62" name="Heavy Machine Gun (HMG)" hidden="false" targetId="a28fc6be-65f0-d015-c528-15adca14d14a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dcaf-797c-199b-786e" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4cd6-d742-604f-d5f9" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -16231,6 +16319,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>An Amphibious vehicle can take an advance order to move over unpassable water terrain only by going forward. A traversing vehicle cannot reverse or go down and if it is destroyed, it&apos;s occupants are considered destroyed as well.</description>
     </rule>
     <rule id="d9f23297-40c6-518d-7d32-1aaba9b62d6d" name="Armoured all round" page="0" hidden="false">
       <profiles/>
@@ -16341,6 +16430,10 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>With a Advance order, they move at 9&quot;
+With a Run order, they move at 18&quot;
+Calvary cannot enter buildings or vehicles until they have dismounted. They also cannot assualt buildings.
+Calvary cannot take the down order but may make an escape manuever like a Recce vehicle.</description>
     </rule>
     <rule id="09225d6f-05cb-0031-8ba3-3aa381c04b28" name="Co-axial Weapon" page="0" hidden="false">
       <profiles/>
@@ -16417,6 +16510,7 @@ The crew can fire the LMG or the main gun, but not both at the same time</descri
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>Fanatics do not test for morale if half of their unit is destroyed in a phase of shooting so long as two models remain standing. Second, they do not route and destroy as a result of having pin markers equal to their morale so long as two models remain. Lastly, when engaged in close combat and the Fanatics lose the combat round, they instead count it as a draw and go again. Keep going until either unit is destroyed in this manner.</description>
     </rule>
     <rule id="75a15bd5-b7f9-eb24-bf97-f6517ea3b4b4" name="Fixed" page="0" hidden="false">
       <profiles/>
@@ -16432,13 +16526,6 @@ Can only target units at leat partially in their front arc</description>
       <infoLinks/>
       <modifiers/>
       <description>Can fire at strafing aircraft at -2 to hit</description>
-    </rule>
-    <rule id="d50d03d1-0c0a-6db0-729c-be663b18806d" name="Flame-throwing Vehicle" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Flame-throwing vehicles are more likely to be destroyed, as explained on page 51 of the rulebook. </description>
     </rule>
     <rule id="80408051-62f1-e43d-fc1f-1983b228b7cf" name="Flamethrower" page="0" hidden="false">
       <profiles/>
@@ -16525,7 +16612,7 @@ Infantry takes D3+1 pin markers for being hit by a flamethrower</description>
       <description>Green Units are Inexperienced. When the unit suffers its first casualty roll a die: 
 on a roll of 1 the unit suffers an additional D6 Pin Markers and goes Down;
 on a roll of 2,3 or 4 nothing happens;
-on a roll of 5 or 6 the unit is immediately uprated to Regular for the rest of the battle.</description>
+on a roll of 5 or 6 the unit is immediately uprgraded to Regular for the rest of the battle.</description>
     </rule>
     <rule id="ec07765d-5037-08c2-6533-9d99511f208d" name="Gun Shield" page="0" hidden="false">
       <profiles/>
@@ -16827,7 +16914,7 @@ When Pinned always count Pinned Markers as Double, ie one Pin Marker gives a -2 
       <infoLinks/>
       <modifiers/>
       <description>When firing under Fire or Ambush orders only:
-Range is 36&quot; and hits at +1
+Range becomes 36&quot;, but any shot under 12&quot; misses automatically.
 Can target a specific model as per Exceptional Damage
 Ignores all penalties for cover
 Ignores the Gun Shield rule</description>
@@ -16851,6 +16938,7 @@ Ignores the Gun Shield rule</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>If forced to make a Morale check, they ignore negative modifier such as pin markers. Note that this is for Morale checks and not Order tests.</description>
     </rule>
     <rule id="86d96612-4570-a71f-0dcb-1ee2a353fa24" name="Super Heavy AT Gun" page="0" hidden="false">
       <profiles/>
@@ -16891,6 +16979,7 @@ Ignores the Gun Shield rule</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>If this models scores a casualty, they make make another damage roll. (But not a third!)</description>
     </rule>
     <rule id="9ef292bb-0173-2b64-586b-65d3b0bf65a4" name="Transport (12)" page="0" hidden="false">
       <profiles/>
@@ -17027,6 +17116,13 @@ Ignores the Gun Shield rule</description>
       <modifiers/>
       <description>Weak side armour means that all shots to the side oof the vehicle count as to the rear  with a +2 penetration modifier</description>
     </rule>
+    <rule id="fa7a-1225-8094-159e" name="Flame-throwing Vehicle" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Flame-throwing vehicles are more likely to be destroyed, adding +1 to the damage roll when hit.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="2ed110db-2472-cc19-4b18-9c68c1bcbac2" name="Anti-tank rifle" page="0" hidden="false" profileTypeId="58b84a31-b571-5b2b-0a61-a8b39a74f6eb">
@@ -17047,7 +17143,7 @@ Ignores the Gun Shield rule</description>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="24&quot;"/>
+        <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="18&quot;"/>
         <characteristic name="Shots" characteristicTypeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef" value="2"/>
         <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="n/a"/>
         <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Assault"/>
@@ -17085,7 +17181,7 @@ Ignores the Gun Shield rule</description>
       <characteristics>
         <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="6&quot;"/>
         <characteristic name="Shots" characteristicTypeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef" value="D6"/>
-        <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="+2"/>
+        <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="+3"/>
         <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Flamethrower"/>
       </characteristics>
     </profile>
@@ -17095,8 +17191,8 @@ Ignores the Gun Shield rule</description>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="18&quot;"/>
-        <characteristic name="Shots" characteristicTypeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef" value="2D6"/>
+        <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="12&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef" value="D6+1"/>
         <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="+3"/>
         <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Flamethrower"/>
       </characteristics>
@@ -17110,7 +17206,7 @@ Ignores the Gun Shield rule</description>
         <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="72&quot;"/>
         <characteristic name="Shots" characteristicTypeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef" value="1"/>
         <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="+6"/>
-        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Fixed, HE (D3)"/>
+        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Fixed, HE (2&quot;)"/>
       </characteristics>
     </profile>
     <profile id="9301039a-b7fc-ab81-887f-330c400d543d" name="Heavy automatic cannon" page="0" hidden="false" profileTypeId="58b84a31-b571-5b2b-0a61-a8b39a74f6eb">
@@ -17122,7 +17218,7 @@ Ignores the Gun Shield rule</description>
         <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="72&quot;"/>
         <characteristic name="Shots" characteristicTypeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef" value="2"/>
         <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="+3"/>
-        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Fixed, HE (D2)"/>
+        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Fixed, HE (1&quot;)"/>
       </characteristics>
     </profile>
     <profile id="36738176-9761-24c3-70d8-c89c90de2375" name="Heavy Howitzer" page="0" hidden="false" profileTypeId="58b84a31-b571-5b2b-0a61-a8b39a74f6eb">
@@ -17131,10 +17227,10 @@ Ignores the Gun Shield rule</description>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="(0/24&quot;) - 72&quot;"/>
+        <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="(36&quot;/84&quot;) - 72&quot;"/>
         <characteristic name="Shots" characteristicTypeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef" value="1"/>
-        <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="HE"/>
-        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Fixed, Howitzer, HE (3D6)"/>
+        <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="+4 (HE)"/>
+        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Fixed, Howitzer, HE (4&quot;)"/>
       </characteristics>
     </profile>
     <profile id="a28fc6be-65f0-d015-c528-15adca14d14a" name="Heavy Machine Gun (HMG)" page="0" hidden="false" profileTypeId="58b84a31-b571-5b2b-0a61-a8b39a74f6eb">
@@ -17155,10 +17251,10 @@ Ignores the Gun Shield rule</description>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="16&quot; - 72&quot;"/>
+        <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="12&quot; - 72&quot;"/>
         <characteristic name="Shots" characteristicTypeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef" value="1"/>
-        <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="HE"/>
-        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value=" Team, Fixed, Indirect fire, HE (2D6)"/>
+        <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="+3 (HE)"/>
+        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value=" Team, Fixed, Indirect fire, HE (3&quot;)"/>
       </characteristics>
     </profile>
     <profile id="109d237f-140f-68df-f0a5-d09ffa18e6b6" name="Inexperienced" page="0" hidden="false" profileTypeId="2824ab73-d5bb-a968-a566-19371da1c5e4">
@@ -17179,7 +17275,7 @@ Ignores the Gun Shield rule</description>
         <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="48&quot;"/>
         <characteristic name="Shots" characteristicTypeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef" value="1"/>
         <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="+4"/>
-        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Fixed, HE (D2)"/>
+        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Fixed, HE (1&quot;)"/>
       </characteristics>
     </profile>
     <profile id="86ea648a-76f6-6a59-222d-dc0c52581b36" name="Light automatic cannon" page="0" hidden="false" profileTypeId="58b84a31-b571-5b2b-0a61-a8b39a74f6eb">
@@ -17191,7 +17287,7 @@ Ignores the Gun Shield rule</description>
         <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="48&quot;"/>
         <characteristic name="Shots" characteristicTypeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef" value="2"/>
         <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="+2"/>
-        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Fixed,  HE (D2)"/>
+        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Fixed,  HE (1&quot;)"/>
       </characteristics>
     </profile>
     <profile id="1884d00f-327b-d79f-ef80-999cb5287a1c" name="Light howitzer" page="0" hidden="false" profileTypeId="58b84a31-b571-5b2b-0a61-a8b39a74f6eb">
@@ -17200,10 +17296,10 @@ Ignores the Gun Shield rule</description>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="(0/24&quot;) - 48&quot;"/>
+        <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="(24/60&quot;) - 48&quot;"/>
         <characteristic name="Shots" characteristicTypeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef" value="1"/>
-        <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="HE"/>
-        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Fixed, Howitzer, HE (D6)"/>
+        <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="+2 (HE)"/>
+        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Fixed, Howitzer, HE (2&quot;)"/>
       </characteristics>
     </profile>
     <profile id="7ee66867-b66c-5d46-8043-73765ad07f96" name="Light Machine Gun (LMG)" page="0" hidden="false" profileTypeId="58b84a31-b571-5b2b-0a61-a8b39a74f6eb">
@@ -17212,8 +17308,8 @@ Ignores the Gun Shield rule</description>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="30&quot;"/>
-        <characteristic name="Shots" characteristicTypeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef" value="3"/>
+        <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="36&quot;"/>
+        <characteristic name="Shots" characteristicTypeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef" value="4"/>
         <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="n/a"/>
         <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team"/>
       </characteristics>
@@ -17226,8 +17322,8 @@ Ignores the Gun Shield rule</description>
       <characteristics>
         <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="12&quot;-24&quot;"/>
         <characteristic name="Shots" characteristicTypeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef" value="1"/>
-        <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="HE"/>
-        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Indirect Fire, HE (D3)"/>
+        <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="+1 (HE)"/>
+        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Indirect Fire, HE (1&quot;)"/>
       </characteristics>
     </profile>
     <profile id="165b4d03-63e5-283d-910e-9f727fcb8e54" name="Medium AT Gun" page="0" hidden="false" profileTypeId="58b84a31-b571-5b2b-0a61-a8b39a74f6eb">
@@ -17239,7 +17335,7 @@ Ignores the Gun Shield rule</description>
         <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="60&quot;"/>
         <characteristic name="Shots" characteristicTypeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef" value="1"/>
         <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="+5"/>
-        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Fixed, HE (D2)"/>
+        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Fixed, HE (1&quot;)"/>
       </characteristics>
     </profile>
     <profile id="aaabede5-9ca6-1173-3f42-8f7ba6a51ac6" name="Medium Howitzer" page="0" hidden="false" profileTypeId="58b84a31-b571-5b2b-0a61-a8b39a74f6eb">
@@ -17248,10 +17344,10 @@ Ignores the Gun Shield rule</description>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="(0/24&quot;) - 60&quot;"/>
+        <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="(30/72&quot;) - 60&quot;"/>
         <characteristic name="Shots" characteristicTypeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef" value="1"/>
-        <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="HE"/>
-        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Fixed, Howitzer, HE (2D6)"/>
+        <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="+3 (HE)"/>
+        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Fixed, Howitzer, HE (3&quot;)"/>
       </characteristics>
     </profile>
     <profile id="5cf77de7-0fc3-71a8-4933-70b4a81ad0cb" name="Medium Machine Gun (MMG)" page="0" hidden="false" profileTypeId="58b84a31-b571-5b2b-0a61-a8b39a74f6eb">
@@ -17261,7 +17357,7 @@ Ignores the Gun Shield rule</description>
       <modifiers/>
       <characteristics>
         <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="36&quot;"/>
-        <characteristic name="Shots" characteristicTypeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef" value="4"/>
+        <characteristic name="Shots" characteristicTypeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef" value="5"/>
         <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="n/a"/>
         <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Fixed"/>
       </characteristics>
@@ -17272,10 +17368,10 @@ Ignores the Gun Shield rule</description>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="18&quot; - 60&quot;"/>
+        <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="12&quot; - 60&quot;"/>
         <characteristic name="Shots" characteristicTypeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef" value="1"/>
-        <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="HE"/>
-        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Fixed, Indirect fire, HE (D6)"/>
+        <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="+2 (HE)"/>
+        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Fixed, Indirect fire, HE (2&quot;)"/>
       </characteristics>
     </profile>
     <profile id="73e55b0d-0f9e-7272-d257-b4b32242b1d5" name="Panzerfaust" page="0" hidden="false" profileTypeId="58b84a31-b571-5b2b-0a61-a8b39a74f6eb">
@@ -17298,7 +17394,7 @@ Ignores the Gun Shield rule</description>
       <characteristics>
         <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="24&quot;"/>
         <characteristic name="Shots" characteristicTypeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef" value="1"/>
-        <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="+6"/>
+        <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="+5"/>
         <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Shaped Charge"/>
       </characteristics>
     </profile>
@@ -17368,7 +17464,7 @@ Ignores the Gun Shield rule</description>
         <characteristic name="Range" characteristicTypeId="d527d332-6869-32b4-3a5a-13127d8e04c9" value="84&quot;"/>
         <characteristic name="Shots" characteristicTypeId="4026822d-22f6-f9c5-1a3b-b8c72f88f7ef" value="1"/>
         <characteristic name="Penetration" characteristicTypeId="a46d52c2-b1b5-dd31-879a-e64572cd9dc8" value="+7"/>
-        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Fixed, HE(D3)"/>
+        <characteristic name="Special Rules" characteristicTypeId="a20985c1-29eb-9dbc-db45-3d439b60eed7" value="Team, Fixed, HE(3&quot;)"/>
       </characteristics>
     </profile>
     <profile id="3ffe9a5e-48cc-2400-5d45-7526a1e19df7" name="Veteran" page="0" hidden="false" profileTypeId="2824ab73-d5bb-a968-a566-19371da1c5e4">

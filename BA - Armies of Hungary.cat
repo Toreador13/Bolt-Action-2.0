@@ -48,71 +48,7 @@
   </infoLinks>
   <costTypes/>
   <profileTypes/>
-  <categoryEntries>
-    <categoryEntry id="6ad3-211d-830d-e0f9" name="Free Units" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="9b4d-3f51-e4f7-7ef9" name="Headquarters" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="4f51-e2cd-daa0-002f" name="Infantry" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="abe5-176c-47d5-28d2" name="Infantry Support" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="46ea-ab30-e801-4f4f" name="Artillery" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="1c67-ebd6-b64e-f3a9" name="Armoured Cars  and Recce Vehicles" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="99ee-d418-1c4d-d421" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="4e33-f560-11e3-a034" name="Transports" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="a38e-567f-099b-9db9" name="Tows" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-  </categoryEntries>
+  <categoryEntries/>
   <forceEntries>
     <forceEntry id="4496-feee-6892-859c" name="Allies " hidden="false">
       <profiles/>
@@ -157,13 +93,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="bfad-a65b-8c1c-78d1" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="9514-03cb-6587-7c2e" name="Transports" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="false">
           <profiles/>
           <rules/>
@@ -178,7 +107,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="1579-f3e8-ccd4-c23f" name="Theatre Selector" hidden="false" targetId="ae1e-461a-3e2e-a03c" primary="false">
+        <categoryLink id="6bc7-7066-e8c2-f427" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="75e6-a726-7549-c811" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -244,14 +173,14 @@
           <modifiers>
             <modifier type="decrement" field="3126-f925-a956-ce37" value="1">
               <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="c4c0ca91-937b-7bae-f553-abfea10f1483" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="75e6-a726-7549-c811" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
             </modifier>
             <modifier type="decrement" field="9a81-3c90-f4d0-c9b2" value="1">
               <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="c4c0ca91-937b-7bae-f553-abfea10f1483" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="75e6-a726-7549-c811" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -260,31 +189,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3126-f925-a956-ce37" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="9a81-3c90-f4d0-c9b2" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="e842-fb07-b787-9641" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="decrement" field="7524-fcb6-b200-9756" value="1">
-              <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="f2903219-8ebc-8034-37ec-78a7f9040c20" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="c0f9-f73c-25a8-50b0" value="1">
-              <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="f2903219-8ebc-8034-37ec-78a7f9040c20" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7524-fcb6-b200-9756" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="c0f9-f73c-25a8-50b0" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="41c8-5340-ffec-a44e" name="Tows" hidden="false" targetId="55a12a58-a9e0-3acc-260d-ed2e4bac108f" primary="false">
@@ -318,7 +222,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="e80b-e536-6474-095c" name="Theatre Selector" hidden="false" targetId="ae1e-461a-3e2e-a03c" primary="false">
+        <categoryLink id="304d-24bd-b1f5-3381" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="75e6-a726-7549-c811" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -375,15 +279,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="31eb-6b47-306e-6cce" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="1c2d-7c90-57dd-9f2f" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="e85d-ca31-cff4-1ae7" type="max"/>
-          </constraints>
-        </categoryLink>
         <categoryLink id="b3d7-4dee-363a-aa7b" name="Transports" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="false">
           <profiles/>
           <rules/>
@@ -432,13 +327,6 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="aa0b-53cb-8c9b-5dd4" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="387e-f9c5-5234-7a04" name="Theatre Selector" hidden="false" targetId="ae1e-461a-3e2e-a03c" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="67be-82fa-857b-9db5" name="Armoured Cars  and Recce Vehicles" hidden="false" targetId="f2903219-8ebc-8034-37ec-78a7f9040c20" primary="false">
           <profiles/>
           <rules/>
@@ -446,6 +334,15 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="3a2d-f3d0-75fe-295e" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="d2e3-7e72-a4e0-3f49" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="75e6-a726-7549-c811" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c5c-17cc-2781-d299" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -461,15 +358,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1de3-62a2-aa18-d1e5" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f70b-f2de-4467-90eb" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="1ed4-b6c1-5e45-931d" name="New CategoryLink" hidden="false" targetId="ae1e-461a-3e2e-a03c" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -808,7 +697,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e4ebd544-c735-4a5c-a84d-28bf2bebe2be" hidden="false" targetId="d9c3d90a-4063-d5e4-22b3-90776537ca5e" type="selectionEntry">
+    <entryLink id="e4ebd544-c735-4a5c-a84d-28bf2bebe2be" name="Toldi I" hidden="false" targetId="d9c3d90a-4063-d5e4-22b3-90776537ca5e" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -824,14 +713,14 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3e666bf5-842f-ce8a-116a-6cb0258409af" hidden="false" targetId="9840db8f-a37f-01cd-837e-2b23cc534f43" type="selectionEntry">
+    <entryLink id="3e666bf5-842f-ce8a-116a-6cb0258409af" name="40M Turan " hidden="false" targetId="9840db8f-a37f-01cd-837e-2b23cc534f43" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="3e666bf5-842f-ce8a-116a-6cb0258409af-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="d77c-a969-2353-44a7" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -840,14 +729,14 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ffe11e81-0edd-6844-4803-e35e99a3a0a5" hidden="false" targetId="e74a13b1-b9cb-f4c4-452c-8cea7b5ade16" type="selectionEntry">
+    <entryLink id="ffe11e81-0edd-6844-4803-e35e99a3a0a5" name="43M Zrinyi II" hidden="false" targetId="e74a13b1-b9cb-f4c4-452c-8cea7b5ade16" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="ffe11e81-0edd-6844-4803-e35e99a3a0a5-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="141a-f947-38ea-71f2" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -856,14 +745,14 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="310fb34d-0013-420e-1deb-f526965438f7" hidden="false" targetId="616f54f8-2e9f-376f-f200-1c201bb00c61" type="selectionEntry">
+    <entryLink id="310fb34d-0013-420e-1deb-f526965438f7" name="CV33 or  CV35 Tankette" hidden="false" targetId="616f54f8-2e9f-376f-f200-1c201bb00c61" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="310fb34d-0013-420e-1deb-f526965438f7-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="1fa8-076a-2c50-ff3d" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -872,14 +761,14 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1a794ac3-1dec-b6a1-e382-cb302d6ecd7b" hidden="false" targetId="fc1ef0b2-0014-eff5-e91f-0c97e710de54" type="selectionEntry">
+    <entryLink id="1a794ac3-1dec-b6a1-e382-cb302d6ecd7b" name="Nimrod Self-Propelled Anti-aircraft Gun" hidden="false" targetId="fc1ef0b2-0014-eff5-e91f-0c97e710de54" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="1a794ac3-1dec-b6a1-e382-cb302d6ecd7b-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="bf66-7a62-a49f-f4de" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -888,14 +777,14 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="df1425ac-408e-d862-79ba-f089a6eecede" hidden="false" targetId="5ba7afdc-2a7e-37d6-1875-31ed582244d0" type="selectionEntry">
+    <entryLink id="df1425ac-408e-d862-79ba-f089a6eecede" name="Toldi II" hidden="false" targetId="5ba7afdc-2a7e-37d6-1875-31ed582244d0" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="df1425ac-408e-d862-79ba-f089a6eecede-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="81f7-7fee-2cbe-15e2" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -936,7 +825,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4af04f4c-d085-dc86-22b7-ae2333dc47e4" hidden="false" targetId="d9c3d90a-4063-d5e4-22b3-90776537ca5e" type="selectionEntry">
+    <entryLink id="4af04f4c-d085-dc86-22b7-ae2333dc47e4" name="Toldi I" hidden="false" targetId="d9c3d90a-4063-d5e4-22b3-90776537ca5e" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -984,7 +873,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2ab2a0b9-49d7-b243-bfb9-f89c14619665" hidden="false" targetId="e74a13b1-b9cb-f4c4-452c-8cea7b5ade16" type="selectionEntry">
+    <entryLink id="2ab2a0b9-49d7-b243-bfb9-f89c14619665" name="43M Zrinyi II" hidden="false" targetId="e74a13b1-b9cb-f4c4-452c-8cea7b5ade16" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1000,7 +889,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="cc06d8b8-8457-f109-ea19-5ff080fa1908" hidden="false" targetId="616f54f8-2e9f-376f-f200-1c201bb00c61" type="selectionEntry">
+    <entryLink id="cc06d8b8-8457-f109-ea19-5ff080fa1908" name="CV33 or  CV35 Tankette" hidden="false" targetId="616f54f8-2e9f-376f-f200-1c201bb00c61" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>

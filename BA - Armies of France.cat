@@ -120,15 +120,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="dec5-4cb8-f4eb-a1a2" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="a788-fc95-df4b-c400" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="472a-4c6f-aaf6-850f" type="max"/>
-          </constraints>
-        </categoryLink>
         <categoryLink id="0ec8-9085-a460-fa02" name="Transports" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="false">
           <profiles/>
           <rules/>
@@ -177,14 +168,7 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="b0d6-2b6d-17f6-004d" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="a0fb-044e-8006-452e" name="Theatre Selector" hidden="false" targetId="ae1e-461a-3e2e-a03c" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="1ca8-3cc0-e991-2307" name="Armoured Cars  and Recce Vehicles" hidden="false" targetId="f2903219-8ebc-8034-37ec-78a7f9040c20" primary="false">
+        <categoryLink id="1ca8-3cc0-e991-2307" name="Armoured Cars and Recce Vehicles" hidden="false" targetId="f2903219-8ebc-8034-37ec-78a7f9040c20" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -199,6 +183,15 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="bca1-3f7b-6f0d-8975" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="f499-62c6-e83d-ed5d" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="75e6-a726-7549-c811" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="136e-5757-b441-1a6d" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -260,14 +253,14 @@
           <modifiers>
             <modifier type="decrement" field="e934-e0cb-e3ad-8a4d" value="1">
               <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="c4c0ca91-937b-7bae-f553-abfea10f1483" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="75e6-a726-7549-c811" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
             </modifier>
             <modifier type="decrement" field="6ef3-89eb-0344-2d9b" value="1">
               <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="c4c0ca91-937b-7bae-f553-abfea10f1483" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="75e6-a726-7549-c811" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -276,31 +269,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6ef3-89eb-0344-2d9b" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="e934-e0cb-e3ad-8a4d" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7211-8cf4-6e78-f8cd" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="decrement" field="03f1-3118-5756-4889" value="1">
-              <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="f2903219-8ebc-8034-37ec-78a7f9040c20" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="68e2-9a16-6eca-9dfd" value="1">
-              <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="f2903219-8ebc-8034-37ec-78a7f9040c20" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="03f1-3118-5756-4889" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="68e2-9a16-6eca-9dfd" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="3189-2ff5-8ff5-8689" name="Tows" hidden="false" targetId="55a12a58-a9e0-3acc-260d-ed2e4bac108f" primary="false">
@@ -334,7 +302,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="9cf2-3603-b56c-e925" name="Theatre Selector" hidden="false" targetId="ae1e-461a-3e2e-a03c" primary="false">
+        <categoryLink id="67bf-c8d3-1f83-2262" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="75e6-a726-7549-c811" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -386,13 +354,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="dad5-0fa5-a4ae-8118" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="ab9a-d605-aef0-4073" name="Transports" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="false">
           <profiles/>
           <rules/>
@@ -407,7 +368,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="ee21-002b-a069-bdc9" name="Theatre Selector" hidden="false" targetId="ae1e-461a-3e2e-a03c" primary="false">
+        <categoryLink id="5fa6-62ea-03d2-d9e8" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="75e6-a726-7549-c811" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -427,15 +388,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3884-fb41-683b-e1f4" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53a8-4c65-509c-a807" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="8f9f-5412-13cf-1c4f" name="New CategoryLink" hidden="false" targetId="ae1e-461a-3e2e-a03c" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1628,14 +1581,7 @@
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="85b87c48-0f78-5d34-9403-569858901241-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="d262-5ef7-d174-478a" name="New CategoryLink" hidden="false" targetId="b3073f4b-f974-1603-e5ea-b2ec953e496a" primary="false">
+        <categoryLink id="62d3-e274-36fb-743e" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1665,14 +1611,7 @@
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="5bb27721-5249-e800-7736-9f503e081768-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="8b0c-ddc6-8584-8415" name="New CategoryLink" hidden="false" targetId="b3073f4b-f974-1603-e5ea-b2ec953e496a" primary="false">
+        <categoryLink id="abf8-795e-0cbe-73a7" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1702,14 +1641,7 @@
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="643c2cf9-0e09-1462-5172-dadc2edacda7-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="c267-9147-22a7-be25" name="New CategoryLink" hidden="false" targetId="b3073f4b-f974-1603-e5ea-b2ec953e496a" primary="false">
+        <categoryLink id="8ed0-32fc-dc60-a887" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1740,14 +1672,7 @@
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="bfaf145a-c429-2416-7f10-87fa6be12c36-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="1bc5-bf6a-9abb-fd35" name="New CategoryLink" hidden="false" targetId="b3073f4b-f974-1603-e5ea-b2ec953e496a" primary="false">
+        <categoryLink id="2ef7-66fc-0a83-0600" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1777,14 +1702,7 @@
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="2734c47c-54ad-b0c7-47c3-94a2374299ac-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="fdbf-ab18-860e-c942" name="New CategoryLink" hidden="false" targetId="b3073f4b-f974-1603-e5ea-b2ec953e496a" primary="false">
+        <categoryLink id="a86f-b460-76a2-418f" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1814,13 +1732,6 @@
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="34c47dee-8c1b-4e8b-808e-3ef12977e8de-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="31fe-7a37-c484-126a" name="New CategoryLink" hidden="false" targetId="b3073f4b-f974-1603-e5ea-b2ec953e496a" primary="false">
           <profiles/>
           <rules/>
@@ -1851,14 +1762,7 @@
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="eb4b69ff-4fd3-0d69-ce55-41520d2e9142-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="125c-3d79-0430-d919" name="New CategoryLink" hidden="false" targetId="b3073f4b-f974-1603-e5ea-b2ec953e496a" primary="false">
+        <categoryLink id="c2d1-e144-803b-94c1" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1889,14 +1793,7 @@
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="cfefc9f0-c9c5-a2e0-fa19-a2f0c31d0bdf-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="a989-cebe-8110-76c2" name="New CategoryLink" hidden="false" targetId="b3073f4b-f974-1603-e5ea-b2ec953e496a" primary="false">
+        <categoryLink id="d1b5-c35d-d7bb-1136" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1926,14 +1823,14 @@
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="25828ee1-3490-4473-07d9-c56ceea97db4-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="4273-eb64-9ded-2f06" name="New CategoryLink" hidden="false" targetId="b3073f4b-f974-1603-e5ea-b2ec953e496a" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="4273-eb64-9ded-2f06" name="New CategoryLink" hidden="false" targetId="b3073f4b-f974-1603-e5ea-b2ec953e496a" primary="false">
+        <categoryLink id="6942-c8e9-6a14-6f43" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1964,14 +1861,7 @@
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="1b09138c-2903-7c37-010e-88d66c7f18ab-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="ce6c-5e3e-d642-9828" name="New CategoryLink" hidden="false" targetId="b3073f4b-f974-1603-e5ea-b2ec953e496a" primary="false">
+        <categoryLink id="4674-f436-46a2-d2bb" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2002,14 +1892,7 @@
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="fe79f0bf-8e00-8067-a3d8-9ee3d406dc14-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="1da6-2e56-d120-fda7" name="New CategoryLink" hidden="false" targetId="b3073f4b-f974-1603-e5ea-b2ec953e496a" primary="false">
+        <categoryLink id="9222-0f55-1b89-2cd4" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2040,14 +1923,7 @@
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="c489259a-8bc9-d6fc-67c0-667884c09d96-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="573a-a16e-35ef-3189" name="New CategoryLink" hidden="false" targetId="b3073f4b-f974-1603-e5ea-b2ec953e496a" primary="false">
+        <categoryLink id="b786-93a1-7aa2-5875" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>

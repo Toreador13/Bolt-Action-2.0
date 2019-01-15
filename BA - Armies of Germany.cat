@@ -35,71 +35,7 @@
   </infoLinks>
   <costTypes/>
   <profileTypes/>
-  <categoryEntries>
-    <categoryEntry id="f3cf-c271-5022-f40e" name="Free Units" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="93bf-7045-7002-9117" name="Headquarters" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="a93d-d1a4-620c-4e6b" name="Infantry" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="fe5e-f160-7ae7-8e7a" name="Infantry Support" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="c265-6a7d-8d69-379c" name="Artillery" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="7d3b-84bc-3032-1abe" name="Armoured Cars  and Recce Vehicles" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="d1f0-710c-9d6a-ddbe" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="730e-fdad-1421-43e6" name="Transports" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="aa6f-87f4-896d-1aaf" name="Tows" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-  </categoryEntries>
+  <categoryEntries/>
   <forceEntries>
     <forceEntry id="b32c-79d3-bea4-7eba" name="Allies " hidden="false">
       <profiles/>
@@ -144,13 +80,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="8f79-a43e-06d8-46f6" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="bf51-90ba-d5b0-7c62" name="Transports" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="false">
           <profiles/>
           <rules/>
@@ -165,7 +94,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="79ad-a562-228c-7574" name="Theatre Selector" hidden="false" targetId="ae1e-461a-3e2e-a03c" primary="false">
+        <categoryLink id="8ab5-e193-f3f9-d80b" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="75e6-a726-7549-c811" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -231,14 +160,14 @@
           <modifiers>
             <modifier type="decrement" field="4a1a-761a-0aaa-4551" value="1">
               <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="c4c0ca91-937b-7bae-f553-abfea10f1483" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="75e6-a726-7549-c811" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
             </modifier>
             <modifier type="decrement" field="5ecf-2dba-6fe1-eb4e" value="1">
               <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="c4c0ca91-937b-7bae-f553-abfea10f1483" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="75e6-a726-7549-c811" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -247,31 +176,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4a1a-761a-0aaa-4551" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="5ecf-2dba-6fe1-eb4e" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="4bdc-1606-b101-63a4" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="decrement" field="efbc-2fc4-163f-5885" value="1">
-              <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="f2903219-8ebc-8034-37ec-78a7f9040c20" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="04fd-7d31-dddc-f902" value="1">
-              <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="f2903219-8ebc-8034-37ec-78a7f9040c20" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="efbc-2fc4-163f-5885" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="04fd-7d31-dddc-f902" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="02de-2f26-2438-f05d" name="Tows" hidden="false" targetId="55a12a58-a9e0-3acc-260d-ed2e4bac108f" primary="false">
@@ -305,7 +209,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="87b1-f06d-9fdd-48df" name="Theatre Selector" hidden="false" targetId="ae1e-461a-3e2e-a03c" primary="false">
+        <categoryLink id="4ba4-50d4-8384-a669" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="75e6-a726-7549-c811" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -362,15 +266,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="b39e-d7a2-5470-6437" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="15e3-5bfa-9831-0a7b" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="da9f-2bbb-a336-44c1" type="max"/>
-          </constraints>
-        </categoryLink>
         <categoryLink id="eb25-6340-f0d7-351b" name="Transports" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="false">
           <profiles/>
           <rules/>
@@ -419,13 +314,6 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="d7fa-4d96-9567-89a5" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="babf-e059-7ce0-6686" name="Theatre Selector" hidden="false" targetId="ae1e-461a-3e2e-a03c" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="8a68-52e9-1ce7-b265" name="Armoured Cars  and Recce Vehicles" hidden="false" targetId="f2903219-8ebc-8034-37ec-78a7f9040c20" primary="false">
           <profiles/>
           <rules/>
@@ -433,6 +321,15 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="a344-cd0e-9034-3f84" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="2d5d-73b3-bd3b-bb9c" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="75e6-a726-7549-c811" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c1a-17dd-94e3-bc4f" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -448,15 +345,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4475-5b64-972a-3726" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="997e-9af8-5e00-adff" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="d28f-c793-5a95-8feb" name="New CategoryLink" hidden="false" targetId="ae1e-461a-3e2e-a03c" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -859,7 +748,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="7b54f363-8dce-fabe-c6ad-465bd6e9ade3" hidden="false" targetId="4139e802-55cf-9b24-c341-b8c3d2266492" type="selectionEntry">
+    <entryLink id="7b54f363-8dce-fabe-c6ad-465bd6e9ade3" name="Mortar Team" hidden="false" targetId="4139e802-55cf-9b24-c341-b8c3d2266492" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1362,7 +1251,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="95cc1b6e-f7ec-b625-bd3c-6ff64ae4bf36-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="dd13-1df1-9427-bd58" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1378,7 +1267,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="624e083f-336f-2008-5e22-e2fffdac55f5-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="ec20-9265-6419-7a1c" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1394,7 +1283,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="6f7a9264-1701-665b-6387-7c9f7c7bd032-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="ba81-ac88-95c9-ce66" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1410,7 +1299,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="5586706a-5790-55df-0f1e-756465aceab6-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="ef0a-3c6c-19b4-aed3" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1426,7 +1315,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="426a2157-2a35-44ff-ae0f-04c575ed3257-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="a2bc-b9d9-856e-02e6" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1442,7 +1331,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="3ad5f25c-81df-d1bf-c9a1-fe1db73d43cf-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="1692-2d01-c6c3-15a2" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1458,7 +1347,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="b7ca125e-40e3-36ba-1719-e1f9ae5bf12c-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="1b28-535c-af9a-343f" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1474,7 +1363,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="3600d047-4394-2439-5bcd-20bb0bb5d9cc-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="5e3c-88b6-de65-2182" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1490,7 +1379,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="8be9613a-68ba-4a61-ba68-8b92a4bc41f2-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="87cc-4b76-b057-4e8b" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1506,7 +1395,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="1b75cb92-fd12-0169-1e67-30c3bab936ee-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="4e95-6ca8-eccd-1324" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1521,15 +1410,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks>
-        <categoryLink id="3485d3b3-2eab-bcf3-bac5-204bd40b4cd7-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
+      <categoryLinks/>
     </entryLink>
     <entryLink id="3d1307b8-6d50-376f-d0df-d5ccace482e0" name="Hummel" hidden="false" targetId="22ebbe38-0374-133a-478a-8ed7f6d60f5a" type="selectionEntry">
       <profiles/>
@@ -1538,7 +1419,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="3d1307b8-6d50-376f-d0df-d5ccace482e0-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="1477-b5e7-c120-1e6b" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1554,7 +1435,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="741046eb-dcd0-8293-348a-44db046f1b33-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="b4c7-b170-010b-f931" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1570,7 +1451,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="63f2621b-3e46-69ed-425c-c4944b737373-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="a35e-49cf-c6d2-13d4" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1586,7 +1467,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="59fdb1bd-f555-d47f-3d2c-578e79642ac1-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="5953-b6a5-d72f-8df6" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1602,7 +1483,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="7733bee5-0e52-127d-47c3-0d1c8cec225b-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="0606-097d-344b-b59c" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1618,7 +1499,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="300a5c14-6a66-440e-6fc4-78e27ce725d8-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="26dc-20bd-308e-60f1" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1634,7 +1515,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="4fc4cadb-76a5-462f-7ec5-7dc39ecf47e5-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="bfaf-9d89-fac3-70cb" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1649,15 +1530,7 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks>
-        <categoryLink id="d48acb4a-1315-d2a4-869d-e91ec7a040a9-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
+      <categoryLinks/>
     </entryLink>
     <entryLink id="392eb23e-8eae-bfff-5de6-9b5fac355ab1" name="Nashorn" hidden="false" targetId="66c7fc66-46b8-728e-1eb0-c7883028b01b" type="selectionEntry">
       <profiles/>
@@ -1666,7 +1539,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="392eb23e-8eae-bfff-5de6-9b5fac355ab1-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="9061-1470-f049-5ddc" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1682,7 +1555,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="01ade37b-dd47-8eb4-81b7-3aeb460bbb75-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="928f-45f3-2cf2-0602" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1698,7 +1571,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="9f5c4c9f-6c81-b051-1188-ae564185146f-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="ec50-03e8-825d-8e2e" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1714,7 +1587,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="01ccbde5-3c9d-35b4-da57-daf3baa009c8-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="2397-2137-ae91-167c" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1730,7 +1603,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="69663dbd-2246-d16b-a5f5-64bacd17db97-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="e841-9373-cbd5-e538" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1746,7 +1619,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="50b4b43d-565b-5b19-4390-6c78bd011eb4-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="1282-cea1-45cd-397d" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1762,7 +1635,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="815f8b5e-b89c-40f1-fe6a-8961bce19222-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="2f57-746d-62eb-023c" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1778,7 +1651,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="a9eb2110-6a58-944f-77ca-7aec96245e09-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="fe76-1e45-a8ba-9226" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1794,7 +1667,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="09182826-a608-9e59-191d-5003b91f4947-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="db8a-56a1-162a-173c" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1810,7 +1683,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="04015513-f8e3-29b9-934f-008f7978b293-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="117a-9671-ace1-1511" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1826,7 +1699,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="bbeef377-435f-ee6b-204e-b64e7c015a34-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="5059-395a-d9ed-8e5a" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1842,7 +1715,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="f8d54187-25af-cca3-7bd3-42059b13494f-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="d778-1372-9369-8c26" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1858,7 +1731,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="1adf578c-d7bc-d241-d500-7ef5a2dc71a7-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="abae-76db-0bb9-9aff" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1874,7 +1747,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="15dd64f3-0220-2c1a-7a78-2413f117ad40-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="579d-ac07-8882-ee87" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1890,7 +1763,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="b77f1c7f-1644-73a9-01fe-f79efcb422ae-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="0fec-ddff-9b5c-9f2a" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1906,7 +1779,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="1985ce2e-2e76-e31e-cd66-a8b49c586e13-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="a145-51e0-d112-d191" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1922,7 +1795,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="863ff353-229f-92ca-b400-c77485a1a559-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="a86d-0f2f-11d1-3095" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1938,7 +1811,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="fffa1ec5-f461-4991-c9cb-1c7cfaa87a87-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="3fd3-5af9-cdca-8f40" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1954,7 +1827,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="c5269ae8-cf35-846a-85ca-14b715f5e3b5-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="6ff7-1af9-9e3d-949d" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1970,7 +1843,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="662bd282-8174-a1f2-7c9b-fe7f39e2d57f-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="530f-3dba-ef15-3d85" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1986,7 +1859,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="41fae16a-9360-5f1b-243c-1512687cdd27-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="6ee3-11ea-49a8-bd10" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2002,7 +1875,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="7e4aea08-610e-11e7-5608-976388cda72f-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="5bf2-4f1f-f1a0-b946" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2018,7 +1891,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="d08f0ca9-dc5b-4f3a-83e0-6731dea4bfa2-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="5cf7-ce87-3229-2b51" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2034,7 +1907,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="ac9e1da8-dbc1-e8c0-d592-ed8039c718d9-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="2809-3f67-3f5c-d72f" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2050,7 +1923,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="ae0f776f-1b2c-6fe6-a36e-415ba1a625e5-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="5140-c377-36ac-a27b" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2066,7 +1939,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="51478541-53be-aaeb-0310-cdf582719583-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="a7c0-66f1-1d3a-4382" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2082,7 +1955,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="5144e3e2-0f8b-a8fc-5b5c-f50fa0b3faae-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="7062-013e-cc9e-3c67" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2098,7 +1971,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="3f0d3512-1e41-6270-34b5-6ac45854efb6-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="e643-b25b-6207-b981" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2114,7 +1987,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="27e502d7-cfce-120e-ba62-479aec1a80fc-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="5823-f81f-d10c-48c9" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2130,7 +2003,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="5f264f9d-59f5-b46c-a223-0defea92ec33-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="cbdc-2202-cf27-0235" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2146,7 +2019,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="c0d9b02e-0dd4-5a5f-6f08-1fb5ed780143-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="5d39-b409-070f-58c6" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2162,7 +2035,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="02000c7a-4265-3b87-446c-618a388ab1b1-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="cde0-5e75-c814-99a0" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2178,7 +2051,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="e38a6430-18ec-b5df-be2f-081cfcd99baa-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="8e96-7194-9d91-fcb2" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2194,7 +2067,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="5d0e3434-8060-a774-8321-cce045849d95-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="3194-d885-11dd-f09d" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2210,7 +2083,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="142859e2-1cc2-cf21-869c-0728d2ecbf43-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="d7b5-7482-86bf-04da" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2226,7 +2099,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="b5929124-f769-2167-2e5c-6682695cfdab-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="11bc-48f2-7812-0103" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2242,7 +2115,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="04f5ea63-1d46-3e56-d180-4b6d5824c643-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="89b0-f94c-a3b8-898c" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2258,7 +2131,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="b863d547-901a-758e-45c9-fb683e2a2ee3-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="e892-28ee-b0cd-50cb" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2274,7 +2147,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="74919d48-2f9a-054a-7003-2d4f50ea3743-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="0919-f499-c756-99c1" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2290,7 +2163,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="7ebb751d-7f94-818e-0cad-ab0baaf0a109-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="fa72-e9f3-9dd2-9048" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2306,7 +2179,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="bffdf77f-8be6-67fe-eaf8-98798b3f3f7e-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="5cdd-14be-5b0b-3313" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2322,7 +2195,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="393dc5e8-349f-bc73-e093-59300e7459cf-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="9f75-48a1-14f3-b6b8" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2338,7 +2211,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="b0853a7b-cd78-08db-9b45-307773e2bef6-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="e0b0-2298-0143-10f0" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -29086,7 +28959,9 @@ Dice	Effect
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="7f21-1f6b-5d30-113b" name="1940: The Battle of France" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -29098,7 +28973,9 @@ Dice	Effect
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="6b22-f655-eb3d-44be" name="1941: Operation Barbarossa" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -29110,7 +28987,9 @@ Dice	Effect
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="45eb-a364-874e-ae9e" name="1941: Operation Mercury" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -29122,7 +29001,9 @@ Dice	Effect
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="b57f-3cd9-d40c-d738" name="1941-42: Rommel Triumphant" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -29134,7 +29015,9 @@ Dice	Effect
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3101-e295-0c40-3229" name="1942: Stalingrad, Death on the Volga" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -29146,7 +29029,9 @@ Dice	Effect
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="da61-c5f7-0498-f2e7" name="1942: Operation Blue" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -29158,7 +29043,9 @@ Dice	Effect
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="e01d-f368-35c4-7129" name="1942-43: Rommel&apos;s Defeat" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -29170,7 +29057,9 @@ Dice	Effect
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="437d-b323-0971-bc4d" name="1943 - 44: Defense of Italy" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -29182,7 +29071,9 @@ Dice	Effect
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="599b-4ea7-8db4-6c5a" name="1943: Operation Citadel" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -29194,7 +29085,9 @@ Dice	Effect
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="2987-8383-6743-3b67" name="1943-44: Anti-Partisan Security Patrol" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -29206,7 +29099,9 @@ Dice	Effect
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="83ce-f27f-f184-f470" name="1944: Atlantic Wall Resistance Nest" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -29218,7 +29113,9 @@ Dice	Effect
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="7896-a6d8-ae3b-9a57" name="1944: Normandy" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -29230,7 +29127,9 @@ Dice	Effect
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="8ccc-1310-93d5-b3e8" name="1944: Defense of the East" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -29242,7 +29141,9 @@ Dice	Effect
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a576-fbad-3315-9dcc" name="1944-45: Holding the West Wall" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -29254,7 +29155,9 @@ Dice	Effect
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3dcf-12d9-b9b6-ea6c" name="1944-45: Operation Watch on the Rhine" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -29266,7 +29169,9 @@ Dice	Effect
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="d256-0db4-5156-cf2a" name="1945: Last Levy" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -29278,7 +29183,9 @@ Dice	Effect
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="eba6-bc72-6f43-976b" name="1945: Operation Spring Awakening" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -29290,7 +29197,9 @@ Dice	Effect
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>

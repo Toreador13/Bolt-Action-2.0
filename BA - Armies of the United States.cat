@@ -53,71 +53,7 @@
   </infoLinks>
   <costTypes/>
   <profileTypes/>
-  <categoryEntries>
-    <categoryEntry id="02c7-8c9b-2a7f-618d" name="Free Units" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="82e3-12d7-424e-0c16" name="Headquarters" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="b790-644c-3076-3d67" name="Infantry" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="26e0-74b7-079f-55cb" name="Infantry Support" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="524d-3ff1-501e-8e58" name="Artillery" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="f157-fdb1-7b37-780d" name="Armoured Cars  and Recce Vehicles" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="37b4-d07e-88d6-bc11" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="9b98-b889-3322-5313" name="Transports" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="d306-0e3f-2d9d-4b70" name="Tows" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-  </categoryEntries>
+  <categoryEntries/>
   <forceEntries>
     <forceEntry id="353a-3371-b301-c039" name="Allies " hidden="false">
       <profiles/>
@@ -162,13 +98,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="8898-528e-9705-9453" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="e1f7-00ed-e011-d406" name="Transports" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="false">
           <profiles/>
           <rules/>
@@ -183,7 +112,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="9e96-9422-012d-a3cf" name="Theatre Selector" hidden="false" targetId="ae1e-461a-3e2e-a03c" primary="false">
+        <categoryLink id="fbfd-e798-d05c-8593" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="75e6-a726-7549-c811" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -249,14 +178,14 @@
           <modifiers>
             <modifier type="decrement" field="5247-f6f5-141c-2cf2" value="1">
               <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="c4c0ca91-937b-7bae-f553-abfea10f1483" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="75e6-a726-7549-c811" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
             </modifier>
             <modifier type="decrement" field="f67e-99d9-7060-89b7" value="1">
               <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="c4c0ca91-937b-7bae-f553-abfea10f1483" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="75e6-a726-7549-c811" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -265,31 +194,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5247-f6f5-141c-2cf2" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="f67e-99d9-7060-89b7" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="e962-6444-fc34-278a" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="decrement" field="eb7c-09f7-33d8-1dfe" value="1">
-              <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="f2903219-8ebc-8034-37ec-78a7f9040c20" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="0606-5abc-aa7c-9d81" value="1">
-              <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="f2903219-8ebc-8034-37ec-78a7f9040c20" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eb7c-09f7-33d8-1dfe" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="0606-5abc-aa7c-9d81" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="dd4f-8070-dbff-7831" name="Tows" hidden="false" targetId="55a12a58-a9e0-3acc-260d-ed2e4bac108f" primary="false">
@@ -323,7 +227,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="75b8-1678-991f-538b" name="Theatre Selector" hidden="false" targetId="ae1e-461a-3e2e-a03c" primary="false">
+        <categoryLink id="173e-dc8f-c045-066b" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="75e6-a726-7549-c811" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -380,15 +284,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="e59a-cee7-3098-4ac8" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="48a8-a1c4-0c6f-c167" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="4bd9-a90a-bca5-3aaf" type="max"/>
-          </constraints>
-        </categoryLink>
         <categoryLink id="f428-c5f1-4de2-a40a" name="Transports" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="false">
           <profiles/>
           <rules/>
@@ -437,13 +332,6 @@
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="994b-b896-d70f-887e" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="3be5-f813-007c-f420" name="Theatre Selector" hidden="false" targetId="ae1e-461a-3e2e-a03c" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="d68c-0e93-dd99-b1fd" name="Armoured Cars  and Recce Vehicles" hidden="false" targetId="f2903219-8ebc-8034-37ec-78a7f9040c20" primary="false">
           <profiles/>
           <rules/>
@@ -451,6 +339,15 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="fc25-5c8d-f834-240c" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="8888-1212-00c9-2fd5" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="75e6-a726-7549-c811" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be5a-10ee-61ac-c36a" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -466,15 +363,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ca0-32f2-0f9f-d5d5" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f61-2f0f-688f-233a" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="4e47-35fd-4c2f-0c33" name="New CategoryLink" hidden="false" targetId="ae1e-461a-3e2e-a03c" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -493,11 +382,24 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="2f60df47-0291-aefe-07de-da0be8c85b63" hidden="false" targetId="e003029e-e05f-0d4f-9732-26a71df545d0" type="selectionEntry">
+    <entryLink id="2f60df47-0291-aefe-07de-da0be8c85b63" name="1 1/2 Ton Truck" hidden="true" targetId="e003029e-e05f-0d4f-9732-26a71df545d0" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="2f60df47-0291-aefe-07de-da0be8c85b63-963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="true">
@@ -509,11 +411,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="46606b2e-5afa-dbd8-6860-9d13648eb5f8" hidden="false" targetId="f76ce32b-b728-4b55-bcc5-671baa8b96d9" type="selectionEntry">
+    <entryLink id="46606b2e-5afa-dbd8-6860-9d13648eb5f8" name="2 1/2 Ton Truck" hidden="true" targetId="f76ce32b-b728-4b55-bcc5-671baa8b96d9" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="46606b2e-5afa-dbd8-6860-9d13648eb5f8-963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="true">
@@ -525,11 +440,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="f109a057-fa28-1a51-5ebc-cdbc2572b7c7" hidden="false" targetId="4faf469d-3bcd-a13a-e1a2-c062e433f6bb" type="selectionEntry">
+    <entryLink id="f109a057-fa28-1a51-5ebc-cdbc2572b7c7" name="Dodge 3/4 Ton Truck" hidden="true" targetId="4faf469d-3bcd-a13a-e1a2-c062e433f6bb" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="f109a057-fa28-1a51-5ebc-cdbc2572b7c7-963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="true">
@@ -541,11 +469,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2e96fbfb-166b-cdc0-68c7-b78919c0b0af" hidden="false" targetId="3a243054-b3f2-8a96-0745-d7bae9df792e" type="selectionEntry">
+    <entryLink id="2e96fbfb-166b-cdc0-68c7-b78919c0b0af" name="DUKW Amphibious Truck" hidden="true" targetId="3a243054-b3f2-8a96-0745-d7bae9df792e" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="2e96fbfb-166b-cdc0-68c7-b78919c0b0af-963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="true">
@@ -557,11 +498,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e401ef85-1aff-0dde-4952-183fa8a93c83" hidden="false" targetId="f19fd49a-4b3d-79ad-a28e-3f04777bab07" type="selectionEntry">
+    <entryLink id="e401ef85-1aff-0dde-4952-183fa8a93c83" name="Jeep" hidden="true" targetId="f19fd49a-4b3d-79ad-a28e-3f04777bab07" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="e401ef85-1aff-0dde-4952-183fa8a93c83-963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="true">
@@ -573,11 +527,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e51e991b-676e-d394-7d22-98d1811e8cd8" hidden="false" targetId="fbc6aec3-eff5-3769-a08c-72b81d51dc0c" type="selectionEntry">
+    <entryLink id="e51e991b-676e-d394-7d22-98d1811e8cd8" name="LVT Amphibious Troop Transport" hidden="true" targetId="fbc6aec3-eff5-3769-a08c-72b81d51dc0c" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="e51e991b-676e-d394-7d22-98d1811e8cd8-963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="true">
@@ -589,14 +556,34 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b6a7e02e-e31d-3720-1354-98e50f591abb" name="LVT(A)2 Armoured Amphibious Troop Transport" hidden="false" targetId="eb65e75c-5c57-67ee-683b-f875264594fa" type="selectionEntry">
+    <entryLink id="b6a7e02e-e31d-3720-1354-98e50f591abb" name="LVT(A)2 Armoured Amphibious Troop Transport" hidden="true" targetId="eb65e75c-5c57-67ee-683b-f875264594fa" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="b6a7e02e-e31d-3720-1354-98e50f591abb-963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="true">
+        <categoryLink id="b6a7e02e-e31d-3720-1354-98e50f591abb-963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e6c4-71a4-c3e4-17d3" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -605,14 +592,34 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5567e31a-d80a-eb67-b1a7-d694e8ba6177" hidden="false" targetId="8022580f-76df-9360-a198-db5e6f3982fb" type="selectionEntry">
+    <entryLink id="5567e31a-d80a-eb67-b1a7-d694e8ba6177" name="LVT4 &apos;Water Buffalo&apos; Landing Vehicle" hidden="true" targetId="8022580f-76df-9360-a198-db5e6f3982fb" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="5567e31a-d80a-eb67-b1a7-d694e8ba6177-963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="true">
+        <categoryLink id="5567e31a-d80a-eb67-b1a7-d694e8ba6177-963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="65a2-85ee-1cec-f1de" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -621,11 +628,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="34631ab2-7668-af0e-e3b8-d47a62936257" hidden="false" targetId="d2467fbc-37cb-b554-7a0d-99f13106da18" type="selectionEntry">
+    <entryLink id="34631ab2-7668-af0e-e3b8-d47a62936257" name="M2 Half-track" hidden="true" targetId="d2467fbc-37cb-b554-7a0d-99f13106da18" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="34631ab2-7668-af0e-e3b8-d47a62936257-963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="true">
@@ -637,11 +657,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6a1f2cfa-52d9-3bf2-0506-fb7f399bbafa" name="M2A1 Half-track" hidden="false" targetId="1f1c8117-c180-ca27-991e-6e6902dc53a3" type="selectionEntry">
+    <entryLink id="6a1f2cfa-52d9-3bf2-0506-fb7f399bbafa" name="M2A1 Half-track" hidden="true" targetId="1f1c8117-c180-ca27-991e-6e6902dc53a3" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="6a1f2cfa-52d9-3bf2-0506-fb7f399bbafa-963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="true">
@@ -653,11 +686,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b5fa9965-a2ca-7778-2554-816cf859d2ce" name="M3 Half-track" hidden="false" targetId="2d66bb35-423b-0def-bd92-a68335ef8a8c" type="selectionEntry">
+    <entryLink id="b5fa9965-a2ca-7778-2554-816cf859d2ce" name="M3 Half-track" hidden="true" targetId="2d66bb35-423b-0def-bd92-a68335ef8a8c" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="b5fa9965-a2ca-7778-2554-816cf859d2ce-963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="true">
@@ -669,11 +715,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d88ee1db-1935-1f0a-b9ad-35dc6cabdf23" name="M3 White Scout Car" hidden="false" targetId="0d4c6529-b130-53ea-d05e-3612b58d8297" type="selectionEntry">
+    <entryLink id="d88ee1db-1935-1f0a-b9ad-35dc6cabdf23" name="M3 White Scout Car" hidden="true" targetId="0d4c6529-b130-53ea-d05e-3612b58d8297" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="d88ee1db-1935-1f0a-b9ad-35dc6cabdf23-963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="true">
@@ -685,11 +744,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="70694fd9-13a7-2b8c-b8fa-fbc7f84097ab" name="M4/M5 Artillery Tractor" hidden="false" targetId="bc5428c2-bab2-59f7-aae1-c23c66212f67" type="selectionEntry">
+    <entryLink id="70694fd9-13a7-2b8c-b8fa-fbc7f84097ab" name="M4/M5 Artillery Tractor" hidden="true" targetId="bc5428c2-bab2-59f7-aae1-c23c66212f67" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="70694fd9-13a7-2b8c-b8fa-fbc7f84097ab-963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="true">
@@ -701,11 +773,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b7bb85a7-4368-2e1a-4405-fda42fc33abf" name="Mack Heavy Truck" hidden="false" targetId="8860b3a1-e11e-2211-cb75-132fe770bf35" type="selectionEntry">
+    <entryLink id="b7bb85a7-4368-2e1a-4405-fda42fc33abf" name="Mack Heavy Truck" hidden="true" targetId="8860b3a1-e11e-2211-cb75-132fe770bf35" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="b7bb85a7-4368-2e1a-4405-fda42fc33abf-963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="true">
@@ -717,11 +802,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="47f408a2-47ec-a321-9df7-691addc07e86" name="M20 Scout Car" hidden="false" targetId="034c8e60-6112-d4e3-529c-d63fcc6d0954" type="selectionEntry">
+    <entryLink id="47f408a2-47ec-a321-9df7-691addc07e86" name="M20 Scout Car" hidden="true" targetId="034c8e60-6112-d4e3-529c-d63fcc6d0954" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="47f408a2-47ec-a321-9df7-691addc07e86-f2903219-8ebc-8034-37ec-78a7f9040c20" hidden="false" targetId="f2903219-8ebc-8034-37ec-78a7f9040c20" primary="true">
@@ -733,11 +831,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="485e319a-ef66-78c9-7a48-bf4abe324be7" name="M8 Greyhound" hidden="false" targetId="f5eb7e4b-a62c-dacc-17cd-560b9637a6c6" type="selectionEntry">
+    <entryLink id="485e319a-ef66-78c9-7a48-bf4abe324be7" name="M8 Greyhound" hidden="true" targetId="f5eb7e4b-a62c-dacc-17cd-560b9637a6c6" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="485e319a-ef66-78c9-7a48-bf4abe324be7-f2903219-8ebc-8034-37ec-78a7f9040c20" hidden="false" targetId="f2903219-8ebc-8034-37ec-78a7f9040c20" primary="true">
@@ -749,11 +860,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="aca43043-1298-45b7-e521-06a987cf6052" hidden="false" targetId="5932b2c8-0857-e199-b1de-41ad22c961d5" type="selectionEntry">
+    <entryLink id="aca43043-1298-45b7-e521-06a987cf6052" name="Forward Observer" hidden="true" targetId="5932b2c8-0857-e199-b1de-41ad22c961d5" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="aca43043-1298-45b7-e521-06a987cf6052-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true">
@@ -765,11 +889,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="684e0ebe-40d7-ed18-4b34-6b741803335b" hidden="false" targetId="01937da2-b36e-e36d-6466-bd24ea8048af" type="selectionEntry">
+    <entryLink id="684e0ebe-40d7-ed18-4b34-6b741803335b" name="High Ranking Officer" hidden="true" targetId="01937da2-b36e-e36d-6466-bd24ea8048af" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="684e0ebe-40d7-ed18-4b34-6b741803335b-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true">
@@ -781,11 +918,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="bc35e22d-b13f-ad12-6605-1bacd6a3bd31" name="Medic Team" hidden="false" targetId="42c61ab4-be14-9ac0-4696-a0421404015d" type="selectionEntry">
+    <entryLink id="bc35e22d-b13f-ad12-6605-1bacd6a3bd31" name="Medic Team" hidden="true" targetId="42c61ab4-be14-9ac0-4696-a0421404015d" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="bc35e22d-b13f-ad12-6605-1bacd6a3bd31-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true">
@@ -797,11 +947,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="02e89566-2e20-d477-11ad-6bb7a64cfada" name="Platoon Commander" hidden="false" targetId="c179b253-804c-db7d-50c4-0bfaac8aa7d9" type="selectionEntry">
+    <entryLink id="02e89566-2e20-d477-11ad-6bb7a64cfada" name="Platoon Commander" hidden="true" targetId="c179b253-804c-db7d-50c4-0bfaac8aa7d9" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="02e89566-2e20-d477-11ad-6bb7a64cfada-481abf13-c03e-0dd0-d520-9f9837253cbe" hidden="false" targetId="481abf13-c03e-0dd0-d520-9f9837253cbe" primary="true">
@@ -813,11 +976,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a101fab2-ef9a-9cd7-510b-9085f6824d54" hidden="false" targetId="b37439d8-19af-1c3b-623d-5ad909d03c84" type="selectionEntry">
+    <entryLink id="a101fab2-ef9a-9cd7-510b-9085f6824d54" name="Engineer Squad" hidden="true" targetId="b37439d8-19af-1c3b-623d-5ad909d03c84" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="a101fab2-ef9a-9cd7-510b-9085f6824d54-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true">
@@ -829,11 +1005,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="fe7911a5-9a70-e5e2-056c-7c51cc75107c" hidden="false" targetId="0fdefae1-a812-f6f3-35e8-e7aab49f75ee" type="selectionEntry">
+    <entryLink id="fe7911a5-9a70-e5e2-056c-7c51cc75107c" name="Engineer Squad (Late-War)" hidden="true" targetId="0fdefae1-a812-f6f3-35e8-e7aab49f75ee" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="fe7911a5-9a70-e5e2-056c-7c51cc75107c-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true">
@@ -845,11 +1034,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ade4ae06-d80e-cf1f-1ea5-aafad78706d2" hidden="false" targetId="911880ec-5a7c-9107-8bd7-80fbf0ba190e" type="selectionEntry">
+    <entryLink id="ade4ae06-d80e-cf1f-1ea5-aafad78706d2" name="Inexperienced Infantry Squad" hidden="true" targetId="911880ec-5a7c-9107-8bd7-80fbf0ba190e" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="ade4ae06-d80e-cf1f-1ea5-aafad78706d2-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true">
@@ -861,11 +1063,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="26aaeccc-3cc5-6cf8-48a5-eae3e680770d" name="Paratrooper Squad" hidden="false" targetId="cf6b58cf-785e-4841-76d6-7450caf34572" type="selectionEntry">
+    <entryLink id="26aaeccc-3cc5-6cf8-48a5-eae3e680770d" name="Paratrooper Squad" hidden="true" targetId="cf6b58cf-785e-4841-76d6-7450caf34572" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="26aaeccc-3cc5-6cf8-48a5-eae3e680770d-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true">
@@ -877,11 +1092,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b72c2434-7138-1618-5b77-6f7352721882" name="Ranger Squad" hidden="false" targetId="a6c66935-90fa-ea96-ec90-c45633b3dd55" type="selectionEntry">
+    <entryLink id="b72c2434-7138-1618-5b77-6f7352721882" name="Ranger Squad" hidden="true" targetId="a6c66935-90fa-ea96-ec90-c45633b3dd55" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="b72c2434-7138-1618-5b77-6f7352721882-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true">
@@ -893,11 +1121,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="93e73be0-d3fd-061b-12b7-ba2734592b66" name="Regular Glider Squad" hidden="false" targetId="4456a96b-f030-1b75-84a4-64e4c514be6c" type="selectionEntry">
+    <entryLink id="93e73be0-d3fd-061b-12b7-ba2734592b66" name="Regular Glider Squad" hidden="true" targetId="4456a96b-f030-1b75-84a4-64e4c514be6c" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="93e73be0-d3fd-061b-12b7-ba2734592b66-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true">
@@ -909,11 +1150,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="28809a19-0876-529a-d180-27317a6a59d7" name="Regular Infantry Squad (Early/Mid- War)" hidden="false" targetId="35f6122c-b71b-ce05-b3d0-5a92dd3d371a" type="selectionEntry">
+    <entryLink id="28809a19-0876-529a-d180-27317a6a59d7" name="Regular Infantry Squad (Early/Mid- War)" hidden="true" targetId="35f6122c-b71b-ce05-b3d0-5a92dd3d371a" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="28809a19-0876-529a-d180-27317a6a59d7-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true">
@@ -925,11 +1179,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0fcc1317-27d8-6f82-77cd-2ab132193ec9" name="Regular Infantry Squad (Late-War)" hidden="false" targetId="559b917e-f4d1-5c55-536f-94bd8a2962f1" type="selectionEntry">
+    <entryLink id="0fcc1317-27d8-6f82-77cd-2ab132193ec9" name="Regular Infantry Squad (Late-War)" hidden="true" targetId="559b917e-f4d1-5c55-536f-94bd8a2962f1" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="0fcc1317-27d8-6f82-77cd-2ab132193ec9-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true">
@@ -941,11 +1208,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="57ca8763-896f-bfc4-8e48-8b859bcfafb7" name="Regular US Marine Squad (Mid-/Late-War)" hidden="false" targetId="7763ef5f-b11e-44a5-078a-44760e0eae72" type="selectionEntry">
+    <entryLink id="57ca8763-896f-bfc4-8e48-8b859bcfafb7" name="Regular US Marine Squad (Mid-/Late-War)" hidden="true" targetId="7763ef5f-b11e-44a5-078a-44760e0eae72" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="57ca8763-896f-bfc4-8e48-8b859bcfafb7-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true">
@@ -957,11 +1237,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="f68e1e4f-5709-ef59-4d93-28a3dd572638" name="US Marine Squad (Early War)" hidden="false" targetId="8c6f6f5a-7866-2624-c563-b3cb5dbb3e29" type="selectionEntry">
+    <entryLink id="f68e1e4f-5709-ef59-4d93-28a3dd572638" name="US Marine Squad (Early War)" hidden="true" targetId="8c6f6f5a-7866-2624-c563-b3cb5dbb3e29" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="f68e1e4f-5709-ef59-4d93-28a3dd572638-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true">
@@ -973,11 +1266,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="95234981-62a1-1396-4604-161267ffe658" name="Veteran Glider Squad" hidden="false" targetId="39e18222-7cf6-a9f2-783b-f98686ce867d" type="selectionEntry">
+    <entryLink id="95234981-62a1-1396-4604-161267ffe658" name="Veteran Glider Squad" hidden="true" targetId="39e18222-7cf6-a9f2-783b-f98686ce867d" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="95234981-62a1-1396-4604-161267ffe658-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true">
@@ -989,11 +1295,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1563fe8c-f23a-ceda-acd6-1e6b676bbed2" name="Veteran Infantry Squad" hidden="false" targetId="26bc19f1-ab72-bc7b-3e57-8d4838e6f6dd" type="selectionEntry">
+    <entryLink id="1563fe8c-f23a-ceda-acd6-1e6b676bbed2" name="Veteran Infantry Squad" hidden="true" targetId="26bc19f1-ab72-bc7b-3e57-8d4838e6f6dd" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="1563fe8c-f23a-ceda-acd6-1e6b676bbed2-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true">
@@ -1005,11 +1324,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="05efec70-641c-6a64-9033-ac7ad4bf872a" hidden="false" targetId="a47bafae-7c6c-b600-a0a3-70bd0bae5e36" type="selectionEntry">
+    <entryLink id="05efec70-641c-6a64-9033-ac7ad4bf872a" name="Bazooka Team" hidden="true" targetId="a47bafae-7c6c-b600-a0a3-70bd0bae5e36" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="05efec70-641c-6a64-9033-ac7ad4bf872a-a01f5f58-334c-8442-d861-15099ebdf5e5" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true">
@@ -1021,11 +1353,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e7c4e3c4-9c0c-442a-96a1-2a3400f1f954" hidden="false" targetId="14d677d7-044b-a98d-00e6-77449ef15414" type="selectionEntry">
+    <entryLink id="e7c4e3c4-9c0c-442a-96a1-2a3400f1f954" name="Flamethrower Team" hidden="true" targetId="14d677d7-044b-a98d-00e6-77449ef15414" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="e7c4e3c4-9c0c-442a-96a1-2a3400f1f954-a01f5f58-334c-8442-d861-15099ebdf5e5" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true">
@@ -1037,11 +1382,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="86ad1fb2-266b-5699-0fc1-c60009128da4" hidden="false" targetId="0ce8d95b-dc02-523b-1a3b-df23b14bea70" type="selectionEntry">
+    <entryLink id="86ad1fb2-266b-5699-0fc1-c60009128da4" name="Heavy Machine Gun Team" hidden="true" targetId="0ce8d95b-dc02-523b-1a3b-df23b14bea70" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="86ad1fb2-266b-5699-0fc1-c60009128da4-a01f5f58-334c-8442-d861-15099ebdf5e5" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true">
@@ -1053,11 +1411,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="655c3c78-2641-beb5-6bda-40992986014c" name="Medium Machine Gun Team" hidden="false" targetId="235f2d2d-e3e3-22f1-d8b1-bc5cf09c9fd9" type="selectionEntry">
+    <entryLink id="655c3c78-2641-beb5-6bda-40992986014c" name="Medium Machine Gun Team" hidden="true" targetId="235f2d2d-e3e3-22f1-d8b1-bc5cf09c9fd9" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="655c3c78-2641-beb5-6bda-40992986014c-a01f5f58-334c-8442-d861-15099ebdf5e5" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true">
@@ -1069,11 +1440,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="50587b9d-43fe-1a74-b9ba-b2a4c0c793cd" hidden="false" targetId="b0b9720f-c3ec-ae03-b764-315549044d29" type="selectionEntry">
+    <entryLink id="50587b9d-43fe-1a74-b9ba-b2a4c0c793cd" name="Mortar Team" hidden="true" targetId="b0b9720f-c3ec-ae03-b764-315549044d29" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="50587b9d-43fe-1a74-b9ba-b2a4c0c793cd-a01f5f58-334c-8442-d861-15099ebdf5e5" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true">
@@ -1085,11 +1469,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0c766416-00bf-6fad-060b-3a45472227f4" name="Sniper Team" hidden="false" targetId="12864fb9-fa92-2a22-fba8-403ddceb1361" type="selectionEntry">
+    <entryLink id="0c766416-00bf-6fad-060b-3a45472227f4" name="Sniper Team" hidden="true" targetId="12864fb9-fa92-2a22-fba8-403ddceb1361" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="0c766416-00bf-6fad-060b-3a45472227f4-a01f5f58-334c-8442-d861-15099ebdf5e5" hidden="false" targetId="a01f5f58-334c-8442-d861-15099ebdf5e5" primary="true">
@@ -1101,11 +1498,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e8550088-a7cb-fe68-8825-7543f72ee6b5" hidden="false" targetId="b34f7000-8fe0-10fe-d4e7-5c1dd5fd72b8" type="selectionEntry">
+    <entryLink id="e8550088-a7cb-fe68-8825-7543f72ee6b5" name="3-Inch AT-Gun M5" hidden="true" targetId="b34f7000-8fe0-10fe-d4e7-5c1dd5fd72b8" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="e8550088-a7cb-fe68-8825-7543f72ee6b5-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true">
@@ -1117,11 +1527,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d5c46898-d341-7b78-e151-14c4bbf580cf" hidden="false" targetId="63d39485-9190-2327-85bb-fb67aa3aaf50" type="selectionEntry">
+    <entryLink id="d5c46898-d341-7b78-e151-14c4bbf580cf" name="37MM AT-Gun M3" hidden="true" targetId="63d39485-9190-2327-85bb-fb67aa3aaf50" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="d5c46898-d341-7b78-e151-14c4bbf580cf-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true">
@@ -1133,11 +1556,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="f0208250-b8f7-7073-f380-17a139cd6c4c" hidden="false" targetId="10e4104e-ef94-a2fe-1167-c074fa2607f8" type="selectionEntry">
+    <entryLink id="f0208250-b8f7-7073-f380-17a139cd6c4c" name="37MM M1A2 Medium AA Gun" hidden="true" targetId="10e4104e-ef94-a2fe-1167-c074fa2607f8" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="f0208250-b8f7-7073-f380-17a139cd6c4c-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true">
@@ -1149,11 +1585,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="94a4289a-b494-bdf7-1477-784606ecbacd" hidden="false" targetId="fcfe933f-d450-a032-bf62-3d17bf9c100f" type="selectionEntry">
+    <entryLink id="94a4289a-b494-bdf7-1477-784606ecbacd" name="57MM AT-Gun M1" hidden="true" targetId="fcfe933f-d450-a032-bf62-3d17bf9c100f" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="94a4289a-b494-bdf7-1477-784606ecbacd-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true">
@@ -1165,11 +1614,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="71b123cf-c3da-7d41-a26c-5b2d68aa65b5" hidden="false" targetId="7c9efe0c-512f-5270-9bb1-a23bc09367be" type="selectionEntry">
+    <entryLink id="71b123cf-c3da-7d41-a26c-5b2d68aa65b5" name="57MM M18" hidden="true" targetId="7c9efe0c-512f-5270-9bb1-a23bc09367be" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="71b123cf-c3da-7d41-a26c-5b2d68aa65b5-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true">
@@ -1181,11 +1643,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3205a156-ea21-be21-3f1c-0ae42a7a2d1f" hidden="false" targetId="6222bb91-6ab5-4e66-f3ed-37bf3a6c47b7" type="selectionEntry">
+    <entryLink id="3205a156-ea21-be21-3f1c-0ae42a7a2d1f" name="75MM M20" hidden="true" targetId="6222bb91-6ab5-4e66-f3ed-37bf3a6c47b7" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="3205a156-ea21-be21-3f1c-0ae42a7a2d1f-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true">
@@ -1197,11 +1672,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a8ea175d-b00d-de3c-3652-4eb3639666a9" hidden="false" targetId="827c5f40-2390-5887-686a-8d783eee1529" type="selectionEntry">
+    <entryLink id="a8ea175d-b00d-de3c-3652-4eb3639666a9" name="90MM M2 Dual Purpose AA/AT Gun" hidden="true" targetId="827c5f40-2390-5887-686a-8d783eee1529" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="a8ea175d-b00d-de3c-3652-4eb3639666a9-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true">
@@ -1213,11 +1701,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a456c19e-3474-76a0-d4e0-e8cf40605919" hidden="false" targetId="59314d41-2f88-47b7-77b1-967a22e08de9" type="selectionEntry">
+    <entryLink id="a456c19e-3474-76a0-d4e0-e8cf40605919" name="Heavy Artillery" hidden="true" targetId="59314d41-2f88-47b7-77b1-967a22e08de9" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="a456c19e-3474-76a0-d4e0-e8cf40605919-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true">
@@ -1229,11 +1730,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ca012442-8374-1cb0-b513-491c247601cb" hidden="false" targetId="adfc0164-934e-1d8e-dd26-a2e00f7261b3" type="selectionEntry">
+    <entryLink id="ca012442-8374-1cb0-b513-491c247601cb" name="Light Artillery" hidden="true" targetId="adfc0164-934e-1d8e-dd26-a2e00f7261b3" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="ca012442-8374-1cb0-b513-491c247601cb-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true">
@@ -1245,11 +1759,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="246d41d2-28c9-7364-458e-c192ba7a6104" name="Medium Artillery" hidden="false" targetId="b4391725-3538-be98-4e93-17274af29fb2" type="selectionEntry">
+    <entryLink id="246d41d2-28c9-7364-458e-c192ba7a6104" name="Medium Artillery" hidden="true" targetId="b4391725-3538-be98-4e93-17274af29fb2" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="246d41d2-28c9-7364-458e-c192ba7a6104-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true">
@@ -1261,11 +1788,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="44e67137-3246-49db-0fad-c924c68eaa03" name="Rocket Launcher" hidden="false" targetId="cd05186f-df2e-5414-efeb-ea333979f7b1" type="selectionEntry">
+    <entryLink id="44e67137-3246-49db-0fad-c924c68eaa03" name="Rocket Launcher" hidden="true" targetId="cd05186f-df2e-5414-efeb-ea333979f7b1" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="44e67137-3246-49db-0fad-c924c68eaa03-72807c5d-e370-9ddf-c2b7-de5d2797f24d" hidden="false" targetId="72807c5d-e370-9ddf-c2b7-de5d2797f24d" primary="true">
@@ -1277,14 +1817,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1f7100de-1795-c443-8244-1a4ad086f3fd" name="LVT(A)1 Alligator" hidden="false" targetId="f611ce6c-3ad1-73b4-e4bc-54575c31d832" type="selectionEntry">
+    <entryLink id="1f7100de-1795-c443-8244-1a4ad086f3fd" name="LVT(A)1 Alligator" hidden="true" targetId="f611ce6c-3ad1-73b4-e4bc-54575c31d832" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="1f7100de-1795-c443-8244-1a4ad086f3fd-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="9f7d-4376-ede0-8859" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1293,14 +1846,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="05b213db-3c18-cc11-45e9-ba16facb48da" name="LVT(A)4 Landing Vehicle" hidden="false" targetId="da5dd561-4f39-8d2c-49c2-ec2ed10a107c" type="selectionEntry">
+    <entryLink id="05b213db-3c18-cc11-45e9-ba16facb48da" name="LVT(A)4 Landing Vehicle" hidden="true" targetId="da5dd561-4f39-8d2c-49c2-ec2ed10a107c" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="05b213db-3c18-cc11-45e9-ba16facb48da-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="649b-6251-fe79-6d2b" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1309,14 +1875,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="65c56634-0010-4493-5f9f-34de9af12ecf" name="M10 Tank Destroyer" hidden="false" targetId="d01acc38-55b0-868d-fa61-95cd5f59b847" type="selectionEntry">
+    <entryLink id="65c56634-0010-4493-5f9f-34de9af12ecf" name="M10 Tank Destroyer" hidden="true" targetId="d01acc38-55b0-868d-fa61-95cd5f59b847" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="65c56634-0010-4493-5f9f-34de9af12ecf-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="46de-5f0a-e884-f70f" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1325,14 +1904,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="320de52f-95e8-c0ce-a702-9d83690909d0" name="M12 Gun Motor Carriage" hidden="false" targetId="86a173bb-f4e5-dcba-d688-2a073bc32b5c" type="selectionEntry">
+    <entryLink id="320de52f-95e8-c0ce-a702-9d83690909d0" name="M12 Gun Motor Carriage" hidden="true" targetId="86a173bb-f4e5-dcba-d688-2a073bc32b5c" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="320de52f-95e8-c0ce-a702-9d83690909d0-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="5079-6aa1-f81c-5cde" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1341,14 +1933,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="16f248c3-10bf-b7bd-54e3-1c3b5a9ef1c9" name="M13 Multiple Gun Motor Carriage" hidden="false" targetId="6f1cc3b7-4714-93e9-53c8-a0495c032d0d" type="selectionEntry">
+    <entryLink id="16f248c3-10bf-b7bd-54e3-1c3b5a9ef1c9" name="M13 Multiple Gun Motor Carriage" hidden="true" targetId="6f1cc3b7-4714-93e9-53c8-a0495c032d0d" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="16f248c3-10bf-b7bd-54e3-1c3b5a9ef1c9-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="44b1-10eb-80d6-3e83" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1357,14 +1962,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e39b1b11-6123-73d4-af52-1a017e66dabb" name="M15 Multiple Gun Motor Carriage" hidden="false" targetId="700ea133-6066-06dc-455c-e6298213c339" type="selectionEntry">
+    <entryLink id="e39b1b11-6123-73d4-af52-1a017e66dabb" name="M15 Multiple Gun Motor Carriage" hidden="true" targetId="700ea133-6066-06dc-455c-e6298213c339" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="e39b1b11-6123-73d4-af52-1a017e66dabb-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="a737-5198-79fb-d7e6" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1373,14 +1991,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ca91daf5-34fe-3ae2-1828-558c6db12b9c" name="M16 Multiple Gun Motor Carriage" hidden="false" targetId="5e8e2a11-53d1-d1b9-70ff-0f4f9a7f0409" type="selectionEntry">
+    <entryLink id="ca91daf5-34fe-3ae2-1828-558c6db12b9c" name="M16 Multiple Gun Motor Carriage" hidden="true" targetId="5e8e2a11-53d1-d1b9-70ff-0f4f9a7f0409" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="ca91daf5-34fe-3ae2-1828-558c6db12b9c-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="8446-1f77-7fa3-18a9" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1389,14 +2020,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5f6426b2-efb6-6b44-02f8-6ee12882211d" name="M18 Hellcat" hidden="false" targetId="6984812a-9782-d975-6a49-9624ec7d6f37" type="selectionEntry">
+    <entryLink id="5f6426b2-efb6-6b44-02f8-6ee12882211d" name="M18 Hellcat" hidden="true" targetId="6984812a-9782-d975-6a49-9624ec7d6f37" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="5f6426b2-efb6-6b44-02f8-6ee12882211d-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="4042-c8d4-84a1-047d" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1405,14 +2049,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="76341ba5-2f88-8b6a-9780-b677715d9934" name="M21 Mortar Carrier" hidden="false" targetId="bf29ba2b-4957-5f95-cb77-30795fd3a83a" type="selectionEntry">
+    <entryLink id="76341ba5-2f88-8b6a-9780-b677715d9934" name="M21 Mortar Carrier" hidden="true" targetId="bf29ba2b-4957-5f95-cb77-30795fd3a83a" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="76341ba5-2f88-8b6a-9780-b677715d9934-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="baa5-d11f-b402-b084" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1421,14 +2078,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4a3f5817-9511-88b7-0585-4cecfdcf2482" name="M24 Chaffee" hidden="false" targetId="acf6d365-bf2c-9a06-f3a1-4811785069ea" type="selectionEntry">
+    <entryLink id="4a3f5817-9511-88b7-0585-4cecfdcf2482" name="M24 Chaffee" hidden="true" targetId="acf6d365-bf2c-9a06-f3a1-4811785069ea" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="4a3f5817-9511-88b7-0585-4cecfdcf2482-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="b804-cee0-ce11-2cbe" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1437,14 +2107,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="90514c1b-c207-a2a7-cf26-e05410a67a90" name="M26 Pershing" hidden="false" targetId="68354554-78e9-0024-f2f2-e8916b02235e" type="selectionEntry">
+    <entryLink id="90514c1b-c207-a2a7-cf26-e05410a67a90" name="M26 Pershing" hidden="true" targetId="68354554-78e9-0024-f2f2-e8916b02235e" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="90514c1b-c207-a2a7-cf26-e05410a67a90-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="210f-138d-880d-35d8" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1453,14 +2136,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5a3bc68a-c434-bf5b-8ea6-941952daadd6" name="M3 105MM Howitzer Motor Carriage" hidden="false" targetId="002fe197-ca6e-9050-ef1b-97a787b1989c" type="selectionEntry">
+    <entryLink id="5a3bc68a-c434-bf5b-8ea6-941952daadd6" name="M3 105MM Howitzer Motor Carriage" hidden="true" targetId="002fe197-ca6e-9050-ef1b-97a787b1989c" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="5a3bc68a-c434-bf5b-8ea6-941952daadd6-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="9df1-8b2d-b8f0-1b1f" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1469,14 +2165,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="f02ceb07-6196-2669-fca3-e06a0032bc9f" name="M3 75MM (T12) Gun Motor Carriage" hidden="false" targetId="6ce1920d-1bf3-3498-d0b7-0c02537c45b7" type="selectionEntry">
+    <entryLink id="f02ceb07-6196-2669-fca3-e06a0032bc9f" name="M3 75MM (T12) Gun Motor Carriage" hidden="true" targetId="6ce1920d-1bf3-3498-d0b7-0c02537c45b7" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="f02ceb07-6196-2669-fca3-e06a0032bc9f-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="8087-a4b6-6554-bc90" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1485,14 +2194,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="050bfe1e-fabc-df0b-3bcb-764abc945bbe" name="M3 75MM (T30) Howitzer Motor Carriage" hidden="false" targetId="58981481-a71a-d8a7-6bb1-233ce0dac078" type="selectionEntry">
+    <entryLink id="050bfe1e-fabc-df0b-3bcb-764abc945bbe" name="M3 75MM (T30) Howitzer Motor Carriage" hidden="true" targetId="58981481-a71a-d8a7-6bb1-233ce0dac078" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="050bfe1e-fabc-df0b-3bcb-764abc945bbe-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="c305-8b52-8886-0146" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1501,14 +2223,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="eac0b478-f851-2e9a-aefb-7526a7101818" name="M3 Lee" hidden="false" targetId="7c23f3d7-3486-2f85-7516-bf0015475f28" type="selectionEntry">
+    <entryLink id="eac0b478-f851-2e9a-aefb-7526a7101818" name="M3 Lee" hidden="true" targetId="7c23f3d7-3486-2f85-7516-bf0015475f28" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="eac0b478-f851-2e9a-aefb-7526a7101818-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="35ae-3124-0d8f-3699" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1517,14 +2252,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2ca926da-33dd-dfd9-33d6-7857f481a554" name="M36 Jackson" hidden="false" targetId="44fb55f2-d5ca-7564-916a-7a2925593a78" type="selectionEntry">
+    <entryLink id="2ca926da-33dd-dfd9-33d6-7857f481a554" name="M36 Jackson" hidden="true" targetId="44fb55f2-d5ca-7564-916a-7a2925593a78" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="2ca926da-33dd-dfd9-33d6-7857f481a554-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="7150-9146-c7c5-e98e" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1533,14 +2281,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c199b495-c69f-bdf1-89c2-00356c88b9b5" name="M36B1 Jackson" hidden="false" targetId="80a62b76-b3ce-f0d5-b0a0-6297b471417a" type="selectionEntry">
+    <entryLink id="c199b495-c69f-bdf1-89c2-00356c88b9b5" name="M36B1 Jackson" hidden="true" targetId="80a62b76-b3ce-f0d5-b0a0-6297b471417a" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="c199b495-c69f-bdf1-89c2-00356c88b9b5-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="6f97-17a9-55d1-02b0" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1549,14 +2310,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d1120cec-e0f1-5b13-e1aa-ee66e2c7652a" name="M3A1 Lee" hidden="false" targetId="954c3f79-3bac-b20d-b25e-e900bacd85c7" type="selectionEntry">
+    <entryLink id="d1120cec-e0f1-5b13-e1aa-ee66e2c7652a" name="M3A1 Lee" hidden="true" targetId="954c3f79-3bac-b20d-b25e-e900bacd85c7" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="d1120cec-e0f1-5b13-e1aa-ee66e2c7652a-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="6446-0caa-565a-e0b6" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1565,14 +2339,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="74a472b7-058c-b628-b74a-63d1a935b0e6" name="M3A1 Stuart" hidden="false" targetId="1780b33b-8d67-4e0c-c313-d401b69e81df" type="selectionEntry">
+    <entryLink id="74a472b7-058c-b628-b74a-63d1a935b0e6" name="M3A1 Stuart" hidden="true" targetId="1780b33b-8d67-4e0c-c313-d401b69e81df" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="74a472b7-058c-b628-b74a-63d1a935b0e6-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="9865-9ba0-9e07-59ff" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1581,14 +2368,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="35998cbc-d3e1-821b-bee6-3a9326e83ec6" name="M3A1 With Satan Flamethrower" hidden="false" targetId="1564d874-511b-792a-a2f6-bfc66fe3c13b" type="selectionEntry">
+    <entryLink id="35998cbc-d3e1-821b-bee6-3a9326e83ec6" name="M3A1 With Satan Flamethrower" hidden="true" targetId="1564d874-511b-792a-a2f6-bfc66fe3c13b" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="35998cbc-d3e1-821b-bee6-3a9326e83ec6-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="778b-af6b-06b4-a31f" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1597,14 +2397,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4cee3668-1014-329e-109a-e2aae709f6a6" name="M3A3 Lee" hidden="false" targetId="32668da1-253b-71a9-14a8-f44ec42f29d9" type="selectionEntry">
+    <entryLink id="4cee3668-1014-329e-109a-e2aae709f6a6" name="M3A3 Lee" hidden="true" targetId="32668da1-253b-71a9-14a8-f44ec42f29d9" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="4cee3668-1014-329e-109a-e2aae709f6a6-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="f5ca-c290-6b61-b089" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1613,14 +2426,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0b3b3ba3-de29-114a-061b-f82c8d7df287" name="M3A3 Stuart" hidden="false" targetId="fabd2b21-4236-a77f-aad5-0f81642a1893" type="selectionEntry">
+    <entryLink id="0b3b3ba3-de29-114a-061b-f82c8d7df287" name="M3A3 Stuart" hidden="true" targetId="fabd2b21-4236-a77f-aad5-0f81642a1893" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="0b3b3ba3-de29-114a-061b-f82c8d7df287-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="2ba9-4b43-cf6c-e4ea" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1629,14 +2455,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4d8eecb3-6569-1814-4ff2-201c8641068d" name="M3A5 Lee" hidden="false" targetId="dea3dfda-b8b4-74f5-edc4-31b65eb4e82a" type="selectionEntry">
+    <entryLink id="4d8eecb3-6569-1814-4ff2-201c8641068d" name="M3A5 Lee" hidden="true" targetId="dea3dfda-b8b4-74f5-edc4-31b65eb4e82a" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="4d8eecb3-6569-1814-4ff2-201c8641068d-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="68dd-1264-632f-56e1" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1645,14 +2484,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2440b73a-50f6-8e11-0724-f8ca847a81d3" name="M4 Mortar Carrier" hidden="false" targetId="be5b2d67-c8cd-3ea3-a8f4-25cb9e67a933" type="selectionEntry">
+    <entryLink id="2440b73a-50f6-8e11-0724-f8ca847a81d3" name="M4 Mortar Carrier" hidden="true" targetId="be5b2d67-c8cd-3ea3-a8f4-25cb9e67a933" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="2440b73a-50f6-8e11-0724-f8ca847a81d3-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="bce4-b30a-5e38-0200" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1661,14 +2513,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="10b83140-e294-a394-c055-2acb263a050b" name="M4 Sherman 105MM Howitzer" hidden="false" targetId="9950d2c7-02a2-c47e-c233-ff7f8245f276" type="selectionEntry">
+    <entryLink id="10b83140-e294-a394-c055-2acb263a050b" name="M4 Sherman 105MM Howitzer" hidden="true" targetId="9950d2c7-02a2-c47e-c233-ff7f8245f276" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="10b83140-e294-a394-c055-2acb263a050b-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="1dca-c9be-ad30-6336" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1677,14 +2542,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="7f254358-8cad-8a9a-e557-e78851f88bf8" name="M4 Sherman 75MM" hidden="false" targetId="1134c47f-160e-7bd8-a620-cdb950dd0b62" type="selectionEntry">
+    <entryLink id="7f254358-8cad-8a9a-e557-e78851f88bf8" name="M4 Sherman 75MM" hidden="true" targetId="1134c47f-160e-7bd8-a620-cdb950dd0b62" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="7f254358-8cad-8a9a-e557-e78851f88bf8-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="33b9-1c7d-2b03-cfc9" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1693,14 +2571,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="612a5ed3-487e-c88e-da32-625922bc06be" name="M4 Sherman T34 Calliope" hidden="false" targetId="e46c1092-f122-4e3d-ae77-fe5d09508312" type="selectionEntry">
+    <entryLink id="612a5ed3-487e-c88e-da32-625922bc06be" name="M4 Sherman T34 Calliope" hidden="true" targetId="e46c1092-f122-4e3d-ae77-fe5d09508312" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="612a5ed3-487e-c88e-da32-625922bc06be-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="11c3-f011-824a-7a4c" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1709,14 +2600,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0e82ed0b-1d7d-be5e-b2a5-113d78012000" name="M40 Gun Motor Carriage" hidden="false" targetId="27599125-870b-d7dd-8eed-50f2d3821ac8" type="selectionEntry">
+    <entryLink id="0e82ed0b-1d7d-be5e-b2a5-113d78012000" name="M40 Gun Motor Carriage" hidden="true" targetId="27599125-870b-d7dd-8eed-50f2d3821ac8" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="0e82ed0b-1d7d-be5e-b2a5-113d78012000-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="1b9f-59b5-21ed-baaa" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1725,14 +2629,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d09364c2-8ef8-a3eb-7d0c-c2227e450cd5" name="M4A1/A2/A3 Sherman 76MM" hidden="false" targetId="2c3ac5a6-0068-4625-93e3-cd5533092aee" type="selectionEntry">
+    <entryLink id="d09364c2-8ef8-a3eb-7d0c-c2227e450cd5" name="M4A1/A2/A3 Sherman 76MM" hidden="true" targetId="2c3ac5a6-0068-4625-93e3-cd5533092aee" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="d09364c2-8ef8-a3eb-7d0c-c2227e450cd5-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="3b77-3e5a-a620-27e1" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1741,14 +2658,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="bdf9b292-e4df-73c0-67cc-d1bbc5568390" name="M4A2 Sherman &apos;Zippo&apos; or &apos;Ronson&apos; Crocodile Flamethrower" hidden="false" targetId="9148e700-c8f9-bec7-1939-4cb1550566d7" type="selectionEntry">
+    <entryLink id="bdf9b292-e4df-73c0-67cc-d1bbc5568390" name="M4A2 Sherman &apos;Zippo&apos; or &apos;Ronson&apos; Crocodile Flamethrower" hidden="true" targetId="9148e700-c8f9-bec7-1939-4cb1550566d7" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="bdf9b292-e4df-73c0-67cc-d1bbc5568390-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="0a58-eca9-4e82-c118" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1757,14 +2687,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="cb01e174-84c9-842d-4625-10f8b94e3660" name="M4A1/A2/A3/A4 Sherman 75MM" hidden="false" targetId="c9d69fb7-04e7-16ef-d574-43f3c887933c" type="selectionEntry">
+    <entryLink id="cb01e174-84c9-842d-4625-10f8b94e3660" name="M4A1/A2/A3/A4 Sherman 75MM" hidden="true" targetId="c9d69fb7-04e7-16ef-d574-43f3c887933c" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="cb01e174-84c9-842d-4625-10f8b94e3660-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="b42a-c897-3a0e-3350" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1773,14 +2716,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="341c3057-d028-caa8-397f-2603933f6ebd" name="M4A3/A4 Sherman 105MM Howitzer" hidden="false" targetId="ff29c1ea-4d78-13af-7d2a-d7252f6ee7b9" type="selectionEntry">
+    <entryLink id="341c3057-d028-caa8-397f-2603933f6ebd" name="M4A3/A4 Sherman 105MM Howitzer" hidden="true" targetId="ff29c1ea-4d78-13af-7d2a-d7252f6ee7b9" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="341c3057-d028-caa8-397f-2603933f6ebd-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="12ea-6c1c-5b4e-271c" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1789,14 +2745,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a74601d3-3cb6-0688-8428-75db169ca6b0" name="M4A3E2 Sherman &apos;Jumbo&apos; Heavy Assault Tank" hidden="false" targetId="bb40ee39-3f69-6912-dd80-644af63c1e2e" type="selectionEntry">
+    <entryLink id="a74601d3-3cb6-0688-8428-75db169ca6b0" name="M4A3E2 Sherman &apos;Jumbo&apos; Heavy Assault Tank" hidden="true" targetId="bb40ee39-3f69-6912-dd80-644af63c1e2e" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="a74601d3-3cb6-0688-8428-75db169ca6b0-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="771e-19c0-8c17-b6df" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1805,14 +2774,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d15a52e7-9c0f-5019-ca8c-e381b04e3cea" name="M5/M5A1 Stuart" hidden="false" targetId="c88d2a3c-3f9d-b193-5c2b-68e9acf6773c" type="selectionEntry">
+    <entryLink id="d15a52e7-9c0f-5019-ca8c-e381b04e3cea" name="M5/M5A1 Stuart" hidden="true" targetId="c88d2a3c-3f9d-b193-5c2b-68e9acf6773c" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="d15a52e7-9c0f-5019-ca8c-e381b04e3cea-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="56af-a05b-49a6-9e2d" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1821,14 +2803,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3466a5cf-c78a-c8f9-47d5-f1b3cc84a0b1" name="M6 Gun Motor Carriage" hidden="false" targetId="e0c93797-3a65-8397-7537-dfa05fcfa66f" type="selectionEntry">
+    <entryLink id="3466a5cf-c78a-c8f9-47d5-f1b3cc84a0b1" name="M6 Gun Motor Carriage" hidden="true" targetId="e0c93797-3a65-8397-7537-dfa05fcfa66f" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="3466a5cf-c78a-c8f9-47d5-f1b3cc84a0b1-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="ee66-1371-9fcd-5175" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1837,14 +2832,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6be78df0-2539-6ad3-bb0c-1447782f92a2" name="M7 Priest" hidden="false" targetId="94039e9e-7b5d-45d7-fb93-c5c5e84e6624" type="selectionEntry">
+    <entryLink id="6be78df0-2539-6ad3-bb0c-1447782f92a2" name="M7 Priest" hidden="true" targetId="94039e9e-7b5d-45d7-fb93-c5c5e84e6624" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="6be78df0-2539-6ad3-bb0c-1447782f92a2-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="bf19-3f8f-e88f-a0e0" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1853,14 +2861,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="440049d2-bb25-3164-11a7-3e0ba3395742" name="M8 Scott" hidden="false" targetId="bf533570-0e82-d02a-b9c2-09db2c9ff98d" type="selectionEntry">
+    <entryLink id="440049d2-bb25-3164-11a7-3e0ba3395742" name="M8 Scott" hidden="true" targetId="bf533570-0e82-d02a-b9c2-09db2c9ff98d" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="440049d2-bb25-3164-11a7-3e0ba3395742-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="f453-3f8e-c8e3-0982" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1869,14 +2890,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="48a61837-c5bf-1ce3-148a-f846986df86d" name="M3 Stuart Light Tank" hidden="false" targetId="941fe8a1-321d-2866-7552-831c8c6917a6" type="selectionEntry">
+    <entryLink id="48a61837-c5bf-1ce3-148a-f846986df86d" name="M3 Stuart Light Tank" hidden="true" targetId="941fe8a1-321d-2866-7552-831c8c6917a6" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="48a61837-c5bf-1ce3-148a-f846986df86d-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="4bf2-e73a-1116-aea3" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1885,11 +2919,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e52ca061-2291-46b1-daac-fa9078340c11" name="Veteran US Marine Squad (Mid-/Late-War)" hidden="false" targetId="f183c55c-576c-6e3c-f421-7171c7b37440" type="selectionEntry">
+    <entryLink id="e52ca061-2291-46b1-daac-fa9078340c11" name="Veteran US Marine Squad (Mid-/Late-War)" hidden="true" targetId="f183c55c-576c-6e3c-f421-7171c7b37440" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="e52ca061-2291-46b1-daac-fa9078340c11-5c47879b-41d0-1383-5fe5-a5989615db89" hidden="false" targetId="5c47879b-41d0-1383-5fe5-a5989615db89" primary="true">
@@ -1901,14 +2948,27 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="8d8fd6ab-609e-8315-ce0c-23422ee68b42" name="Priest OP (M7 Command Vehicle)" hidden="false" targetId="39b6a189-4e22-3b58-24fd-30af2c8fd6f9" type="selectionEntry">
+    <entryLink id="8d8fd6ab-609e-8315-ce0c-23422ee68b42" name="Priest OP (M7 Command Vehicle)" hidden="true" targetId="39b6a189-4e22-3b58-24fd-30af2c8fd6f9" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="8d8fd6ab-609e-8315-ce0c-23422ee68b42-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="3584-db93-0d89-35bf" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1917,11 +2977,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="105a934b-9ded-7020-086f-83a18c7989d3" name="M3 Scout Car" hidden="false" targetId="7eda0e27-544b-334a-ddf3-338c8229f035" type="selectionEntry">
+    <entryLink id="105a934b-9ded-7020-086f-83a18c7989d3" name="M3 Scout Car" hidden="true" targetId="7eda0e27-544b-334a-ddf3-338c8229f035" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="105a934b-9ded-7020-086f-83a18c7989d3-f2903219-8ebc-8034-37ec-78a7f9040c20" hidden="false" targetId="f2903219-8ebc-8034-37ec-78a7f9040c20" primary="true">
@@ -1933,11 +3006,24 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c2608623-79ad-139a-d651-4b4ccc945373" hidden="false" targetId="cb823a8e-c3bb-c792-96d4-43fa68179f4b" type="selectionEntry">
+    <entryLink id="c2608623-79ad-139a-d651-4b4ccc945373" name="Tank Recovery Tractor" hidden="true" targetId="cb823a8e-c3bb-c792-96d4-43fa68179f4b" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="50d3-a031-8bca-9c19" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="c2608623-79ad-139a-d651-4b4ccc945373-014468cf-931f-6d22-82c8-56acf4032768" hidden="false" targetId="014468cf-931f-6d22-82c8-56acf4032768" primary="true">
@@ -7840,7 +8926,7 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="8192ef2e-d79d-f675-1262-7f3e5dc6182f" name="Coaxial HMG" hidden="false" targetId="1319-0fa5-d126-6292" type="selectionEntry">
+                <entryLink id="8192ef2e-d79d-f675-1262-7f3e5dc6182f" name="Coaxial HMG" hidden="false" targetId="9c44-0898-ddcf-14ad" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -9979,7 +11065,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e39672bd-d07e-3200-eb84-af5a681109c7" name="Hull-mounted front-facing medium mortar" hidden="false" targetId="f123-fdd4-a264-5707" type="selectionEntry">
+        <entryLink id="e39672bd-d07e-3200-eb84-af5a681109c7" name="Pintle-Mounted HMG (360)" hidden="false" targetId="1ff99bb0-f1db-507d-82aa-5895604b7ef5" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10735,7 +11821,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="63ef9b84-9ff8-13c7-b343-734ca6f108fd" name="Hull-mounted front facing medium howitzer" hidden="false" targetId="e090-f62c-016f-0298" type="selectionEntry">
+        <entryLink id="63ef9b84-9ff8-13c7-b343-734ca6f108fd" name="Hull-Mounted Forward Facing Medium Howitzer" hidden="false" targetId="7c52-5849-d5a4-cb9b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10901,7 +11987,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="989e5c53-322c-7c39-a8d8-91eace3d8e09" name="Hull-Mounted Forward Facing Medium AT Gun" hidden="false" targetId="92ee-abda-f4d3-b31c" type="selectionEntry">
+        <entryLink id="989e5c53-322c-7c39-a8d8-91eace3d8e09" name="Hull-Mounted Forward Facing Light Howitzer" hidden="false" targetId="8839-9551-9912-3200" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11061,7 +12147,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="edfd71e9-77ea-2abb-a32c-66044bfb8695" name="Hull-mounted front facing light howitzer" hidden="false" targetId="78e3-878c-f217-1622" type="selectionEntry">
+        <entryLink id="edfd71e9-77ea-2abb-a32c-66044bfb8695" name="Hull-Mounted Forward Facing Light Howitzer" hidden="false" targetId="8839-9551-9912-3200" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13829,7 +14915,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="0302bbdb-f96b-eeca-80ac-d2383b5b24c0" name="Turret Mounted Medium Howitzer" hidden="false" targetId="2498-53e1-1dee-e851" type="selectionEntry">
+        <entryLink id="0302bbdb-f96b-eeca-80ac-d2383b5b24c0" name="Turret Mounted Medium Howitzer" hidden="false" targetId="82cf-9c62-73cb-7413" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15281,7 +16367,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="737e4eb0-37eb-dbd2-f8f6-3f5756f804d3" name="Turret Mounted Medium Howitzer" hidden="false" targetId="2498-53e1-1dee-e851" type="selectionEntry">
+        <entryLink id="737e4eb0-37eb-dbd2-f8f6-3f5756f804d3" name="Turret Mounted Medium Howitzer" hidden="false" targetId="82cf-9c62-73cb-7413" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>

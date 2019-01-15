@@ -44,71 +44,7 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
   </infoLinks>
   <costTypes/>
   <profileTypes/>
-  <categoryEntries>
-    <categoryEntry id="be39-036a-1b2e-8e2f" name="Free Units" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="11bb-4961-0851-3a50" name="Headquarters" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="051a-48f8-ed9b-f88c" name="Infantry" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="4d4b-7089-ab1d-9a6d" name="Infantry Support" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="c0e0-6cf2-1307-57f1" name="Artillery" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="d729-1e7f-5db4-ffbb" name="Armoured Cars  and Recce Vehicles" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="6277-7e77-ffeb-411d" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="99a1-44b8-a29e-2e30" name="Transports" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="7a5b-55ef-5de3-5ae7" name="Tows" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-  </categoryEntries>
+  <categoryEntries/>
   <forceEntries>
     <forceEntry id="a0f2-e55e-6e7d-4e75" name="Allies " hidden="false">
       <profiles/>
@@ -146,14 +82,7 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="1539-4171-02b5-afdd" name="Armoured Cars  and Recce Vehicles" hidden="false" targetId="f2903219-8ebc-8034-37ec-78a7f9040c20" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="fc43-d019-6ae1-115f" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="false">
+        <categoryLink id="1539-4171-02b5-afdd" name="Armoured Cars and Recce Vehicles" hidden="false" targetId="f2903219-8ebc-8034-37ec-78a7f9040c20" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -174,12 +103,14 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="1fb2-8271-73ea-0c88" name="Theatre Selector" hidden="false" targetId="ae1e-461a-3e2e-a03c" primary="false">
+        <categoryLink id="1261-13d3-6996-b33e" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="75e6-a726-7549-c811" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="63a0-1eac-be29-b93f" type="max"/>
+          </constraints>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -240,14 +171,14 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
           <modifiers>
             <modifier type="decrement" field="6dec-0496-1268-133c" value="1">
               <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="c4c0ca91-937b-7bae-f553-abfea10f1483" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="75e6-a726-7549-c811" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
             </modifier>
             <modifier type="decrement" field="ac76-ca76-9b96-64d8" value="1">
               <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="c4c0ca91-937b-7bae-f553-abfea10f1483" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="75e6-a726-7549-c811" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -256,31 +187,6 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ac76-ca76-9b96-64d8" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="6dec-0496-1268-133c" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="7e68-2c06-a0e8-e69c" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="decrement" field="c739-12d2-d89f-4b6c" value="1">
-              <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="f2903219-8ebc-8034-37ec-78a7f9040c20" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="c995-e35d-0d64-d494" value="1">
-              <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="f2903219-8ebc-8034-37ec-78a7f9040c20" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c739-12d2-d89f-4b6c" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="c995-e35d-0d64-d494" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="c798-67b5-c1dc-01e4" name="Tows" hidden="false" targetId="55a12a58-a9e0-3acc-260d-ed2e4bac108f" primary="false">
@@ -314,7 +220,7 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="dc6e-a4f3-a156-fc04" name="Theatre Selector" hidden="false" targetId="ae1e-461a-3e2e-a03c" primary="false">
+        <categoryLink id="4462-88e9-86ee-e254" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="75e6-a726-7549-c811" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -371,15 +277,6 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="32ca-733b-c309-f36f" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="bfd1-b067-462f-9f9d" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="75f7-dcf0-59ce-43fe" type="max"/>
-          </constraints>
-        </categoryLink>
         <categoryLink id="0216-6e4d-d14e-d0e3" name="Transports" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="false">
           <profiles/>
           <rules/>
@@ -428,13 +325,6 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="73d8-8caa-f283-be9b" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="ecfd-cc3b-48f2-1b59" name="Theatre Selector" hidden="false" targetId="ae1e-461a-3e2e-a03c" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="9db1-e1ec-bde4-f729" name="Armoured Cars  and Recce Vehicles" hidden="false" targetId="f2903219-8ebc-8034-37ec-78a7f9040c20" primary="false">
           <profiles/>
           <rules/>
@@ -442,6 +332,15 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="d3b1-3d0c-9ac8-d8b4" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="560b-d823-7ffd-e790" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="75e6-a726-7549-c811" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4e0-8899-ec7c-12bd" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -457,15 +356,7 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bf6-9988-b414-ea1f" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="872c-05eb-a748-4959" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="e3d4-feae-ef78-2386" name="New CategoryLink" hidden="false" targetId="ae1e-461a-3e2e-a03c" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -1264,7 +1155,7 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="78e13b0c-3863-5478-2069-9c4c1979f35d-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="d4d5-bc57-9828-eebc" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1293,7 +1184,7 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="def1a3a6-8e78-ab7e-0d14-2907f0bef9db-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="9adc-8b1f-8ea1-b7e5" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1322,7 +1213,7 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="bfee1ab7-c16e-ef33-2756-08f4c1b580b1-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="8653-362a-7040-50c9" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1351,7 +1242,7 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="154192f7-6299-7c09-60ca-9d31c8e82773-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="d614-8154-2ff9-d7f4" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1382,7 +1273,7 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="88a86764-a60d-c4ac-f8e1-7f2c1db97577-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="0768-4402-0ac0-7c16" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1412,7 +1303,7 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="d8fc4298-04df-101d-f6e1-2f6f306ac74a-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="2700-ef63-fd8a-afd2" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1441,7 +1332,7 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="19ff2ca4-6f8e-4b29-d8f2-44b81fcc156c-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="4b1d-f5cd-27ba-9bdb" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1472,7 +1363,7 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="a1238deb-fd6e-1ee1-902b-30162be7a00a-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="d493-3465-237f-2e2c" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1503,7 +1394,7 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="1a49cb01-f9a7-5777-fded-c24249a3f8ea-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="4d31-30e2-0bea-dd7f" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2553,7 +2444,7 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="3a18bffe-17f3-a8f5-fe12-4a58262d3d79" name="Coaxial LMG" hidden="false" targetId="5663-b789-9e6c-ea26" type="selectionEntry">
+        <entryLink id="3a18bffe-17f3-a8f5-fe12-4a58262d3d79" name="Coaxial LMG" hidden="false" targetId="4090-d5b4-6620-0a0a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2737,7 +2628,15 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="c99f-4380-6adc-ed33" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="ea254ea2-fabc-c1b0-843c-9abad3752ff7" name="Rating" hidden="false" collective="false">
@@ -2803,7 +2702,7 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="ce4c8286-b717-aba5-9055-ee8696b43def" name="Turret Mounted Medium Howitzer" hidden="false" targetId="2498-53e1-1dee-e851" type="selectionEntry">
+        <entryLink id="ce4c8286-b717-aba5-9055-ee8696b43def" name="Turret Mounted Medium Howitzer" hidden="false" targetId="82cf-9c62-73cb-7413" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2850,7 +2749,15 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="4e86-bb24-750e-c9ee" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="d93a604b-5051-7653-24f7-5e1b9c022dae" name="Rating" hidden="false" collective="false">
@@ -3414,7 +3321,9 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="3bc1-8134-efb4-0bf0" name="Regular" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -3620,7 +3529,9 @@ remaining models in that unit are automatically upgraded to higher quality- Inex
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -9416,7 +9327,15 @@ point along the enemy’s table edge.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="b8ca-ddb6-b1ff-4ca6" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="d9a51449-49f0-2a1c-79da-cd390e968f67" name="Rating" hidden="false" collective="false">
@@ -9648,7 +9567,15 @@ point along the enemy’s table edge.</description>
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="0201-785b-34be-3547" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="257a6866-9a10-fba2-2bb4-d6e34f50f614" name="Turret Mounted MMG covering the front and left arcs" page="0" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -9887,7 +9814,15 @@ point along the enemy’s table edge.</description>
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="1d50-82a4-1a0f-d2e1" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="b3322095-5880-f66e-0aee-33d92a29ecae" name="Rating" hidden="false" collective="false">
@@ -9993,7 +9928,15 @@ point along the enemy’s table edge.</description>
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="f952-d533-a23d-f072" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="93703b19-dbca-b996-988f-a1a533de7d7f" name="Rating" hidden="false" collective="false">
@@ -10300,7 +10243,15 @@ point along the enemy’s table edge.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="7f2c-7221-d3cb-6794" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="9829d4d6-3b4e-a42d-3962-8ce3a26b4807" name="Rating" hidden="false" collective="false">
@@ -10414,7 +10365,15 @@ point along the enemy’s table edge.</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="a13a-f89e-be42-2d4d" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="816efca9-15f3-30a4-260c-6bc49e45228f" name="Rating" hidden="false" collective="false">
@@ -10556,7 +10515,9 @@ point along the enemy’s table edge.</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -10611,7 +10572,9 @@ point along the enemy’s table edge.</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -10659,7 +10622,9 @@ point along the enemy’s table edge.</description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -10869,7 +10834,9 @@ point along the enemy’s table edge.</description>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="d96f-71f3-b483-6582" name="Regular" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -11065,7 +11032,9 @@ point along the enemy’s table edge.</description>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>

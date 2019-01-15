@@ -70,71 +70,7 @@ Inexperienced infantry units suffer D3 pinning markers
   </infoLinks>
   <costTypes/>
   <profileTypes/>
-  <categoryEntries>
-    <categoryEntry id="24f4-9b8f-03bc-f725" name="Free Units" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="d013-fc91-f072-a50e" name="Headquarters" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="ba6b-6faf-a53c-54ce" name="Infantry" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="94b2-eba4-5465-c8ae" name="Infantry Support" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="9721-13ac-675c-74e5" name="Artillery" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="334f-aa77-287a-88e3" name="Armoured Cars  and Recce Vehicles" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="fba2-344d-6479-38c7" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="9c02-e293-45c7-de0d" name="Transports" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="2da0-4365-ac02-c91e" name="Tows" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-  </categoryEntries>
+  <categoryEntries/>
   <forceEntries>
     <forceEntry id="c4dd-6380-4e17-59b0" name="Allies " hidden="false">
       <profiles/>
@@ -179,13 +115,6 @@ Inexperienced infantry units suffer D3 pinning markers
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="b5b0-66bb-da75-0534" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="98ce-eda3-bcdc-bc8e" name="Transports" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="false">
           <profiles/>
           <rules/>
@@ -200,7 +129,7 @@ Inexperienced infantry units suffer D3 pinning markers
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="4f51-d4ab-1cfc-69ed" name="Theatre Selector" hidden="false" targetId="ae1e-461a-3e2e-a03c" primary="false">
+        <categoryLink id="e420-3c99-2827-a4c9" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="75e6-a726-7549-c811" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -259,21 +188,21 @@ Inexperienced infantry units suffer D3 pinning markers
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="aa10-551a-13b5-308b" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="6254-5a5a-e2b7-f039" name="Armoured Cars  and Recce Vehicles" hidden="false" targetId="f2903219-8ebc-8034-37ec-78a7f9040c20" primary="false">
+        <categoryLink id="6254-5a5a-e2b7-f039" name="Armoured Cars and Recce Vehicles" hidden="false" targetId="f2903219-8ebc-8034-37ec-78a7f9040c20" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
             <modifier type="decrement" field="2797-4a07-6920-6d5a" value="1">
               <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="c4c0ca91-937b-7bae-f553-abfea10f1483" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="75e6-a726-7549-c811" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
             </modifier>
             <modifier type="decrement" field="2f89-b11f-80bf-8e1c" value="1">
               <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="c4c0ca91-937b-7bae-f553-abfea10f1483" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="75e6-a726-7549-c811" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -282,31 +211,6 @@ Inexperienced infantry units suffer D3 pinning markers
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2797-4a07-6920-6d5a" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="2f89-b11f-80bf-8e1c" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="339d-c090-2db1-59e9" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="decrement" field="b6d6-fbf5-8ced-b370" value="1">
-              <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="f2903219-8ebc-8034-37ec-78a7f9040c20" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="2537-62a6-0a98-144c" value="1">
-              <repeats>
-                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="f2903219-8ebc-8034-37ec-78a7f9040c20" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b6d6-fbf5-8ced-b370" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="2537-62a6-0a98-144c" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="bd4b-3bf0-8783-c6e3" name="Tows" hidden="false" targetId="55a12a58-a9e0-3acc-260d-ed2e4bac108f" primary="false">
@@ -340,7 +244,7 @@ Inexperienced infantry units suffer D3 pinning markers
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="19c1-fa06-4808-bd9e" name="Theatre Selector" hidden="false" targetId="ae1e-461a-3e2e-a03c" primary="false">
+        <categoryLink id="0499-c025-0c04-f67a" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="75e6-a726-7549-c811" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -397,15 +301,6 @@ Inexperienced infantry units suffer D3 pinning markers
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="44b4-0bb7-5820-99d3" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="9ce1-c3d8-b494-4630" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="3b63-82ce-d274-9153" type="max"/>
-          </constraints>
-        </categoryLink>
         <categoryLink id="4d16-5dd9-e230-8393" name="Transports" hidden="false" targetId="963d0e80-c58a-29e1-9b32-87e8ef7ebb0e" primary="false">
           <profiles/>
           <rules/>
@@ -454,13 +349,6 @@ Inexperienced infantry units suffer D3 pinning markers
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="d7db-7ecd-a700-f866" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="f0bb-df5c-ac29-85dc" name="Theatre Selector" hidden="false" targetId="ae1e-461a-3e2e-a03c" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="95c5-e15d-f5ea-7d38" name="Armoured Cars  and Recce Vehicles" hidden="false" targetId="f2903219-8ebc-8034-37ec-78a7f9040c20" primary="false">
           <profiles/>
           <rules/>
@@ -468,6 +356,15 @@ Inexperienced infantry units suffer D3 pinning markers
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="a489-6754-750c-bf3b" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="7bc2-3df2-49f1-c509" name="Tanks, Tank Destroyers, Self-propelled Artillery and Anti-Aircraft Vehicles" hidden="false" targetId="75e6-a726-7549-c811" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="f454-86da-40aa-8b3f" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -564,15 +461,7 @@ Inexperienced infantry units suffer D3 pinning markers
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a85b-ea6c-fcee-eb1d" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e09-5394-4b24-dad4" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="85bf-4915-95d0-ba8e" name="New CategoryLink" hidden="false" targetId="ae1e-461a-3e2e-a03c" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -831,14 +720,14 @@ Inexperienced infantry units suffer D3 pinning markers
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="931f-c13a-d7c1-9d69" hidden="false" targetId="8d47650b-07a5-826b-97b3-2ae4b6ef14f2" type="selectionEntry">
+    <entryLink id="931f-c13a-d7c1-9d69" name="FT-17/18" hidden="false" targetId="8d47650b-07a5-826b-97b3-2ae4b6ef14f2" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="931f-c13a-d7c1-9d69-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="e9ba-f045-687b-345c" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -853,15 +742,7 @@ Inexperienced infantry units suffer D3 pinning markers
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks>
-        <categoryLink id="6a74-dc96-25a3-4c0c-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
+      <categoryLinks/>
     </entryLink>
     <entryLink id="84df-7738-c564-2860" hidden="false" targetId="e72c2bf5-fb4e-c069-87b4-f9a6859ee6af" type="selectionEntry">
       <profiles/>
@@ -895,7 +776,7 @@ Inexperienced infantry units suffer D3 pinning markers
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a073-fcfb-fe46-0dbf" hidden="false" targetId="8d47650b-07a5-826b-97b3-2ae4b6ef14f2" type="selectionEntry">
+    <entryLink id="a073-fcfb-fe46-0dbf" name="FT-17/18" hidden="false" targetId="8d47650b-07a5-826b-97b3-2ae4b6ef14f2" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1039,14 +920,21 @@ Inexperienced infantry units suffer D3 pinning markers
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="44a2-483e-0a3d-5be2" hidden="false" targetId="bded-5622-873d-b34e" type="selectionEntry">
+    <entryLink id="44a2-483e-0a3d-5be2" name="Captured Type 92 Hokoku-Go" hidden="false" targetId="bded-5622-873d-b34e" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="44a2-483e-0a3d-5be2-f2903219-8ebc-8034-37ec-78a7f9040c20" hidden="false" targetId="f2903219-8ebc-8034-37ec-78a7f9040c20" primary="true">
+        <categoryLink id="44a2-483e-0a3d-5be2-f2903219-8ebc-8034-37ec-78a7f9040c20" hidden="false" targetId="f2903219-8ebc-8034-37ec-78a7f9040c20" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a201-5c6c-1f67-c2bf" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1071,14 +959,14 @@ Inexperienced infantry units suffer D3 pinning markers
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c210-ec6b-05ee-d653" hidden="false" targetId="d767-a329-c240-6b59" type="selectionEntry">
+    <entryLink id="c210-ec6b-05ee-d653" name="Captured Type 95 Ha-Go Light Tank" hidden="false" targetId="d767-a329-c240-6b59" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="c210-ec6b-05ee-d653-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="5995-a2cb-2264-5fd1" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1087,14 +975,14 @@ Inexperienced infantry units suffer D3 pinning markers
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="11e6-1b03-77e5-c527" hidden="false" targetId="4377-e636-cbe7-00e4" type="selectionEntry">
+    <entryLink id="11e6-1b03-77e5-c527" name="Captured Type 97 Chi-Ha Medium Tank" hidden="false" targetId="4377-e636-cbe7-00e4" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="11e6-1b03-77e5-c527-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="bc24-50d9-0935-0d06" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1109,15 +997,7 @@ Inexperienced infantry units suffer D3 pinning markers
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks>
-        <categoryLink id="ed3e-5401-02e6-8342-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
+      <categoryLinks/>
     </entryLink>
     <entryLink id="205c-f3c3-f75e-9461" hidden="false" targetId="0077-fdb6-a672-c296" type="selectionEntry">
       <profiles/>
@@ -1135,7 +1015,7 @@ Inexperienced infantry units suffer D3 pinning markers
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="f7e9-f2aa-88f7-4619" hidden="false" targetId="4c8c-7148-6e31-d66b" type="selectionEntry">
+    <entryLink id="f7e9-f2aa-88f7-4619" name="M3 White Scout Car" hidden="false" targetId="4c8c-7148-6e31-d66b" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1231,7 +1111,7 @@ Inexperienced infantry units suffer D3 pinning markers
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5599-4a97-ef8d-4d3f" hidden="false" targetId="4c8c-7148-6e31-d66b" type="selectionEntry">
+    <entryLink id="5599-4a97-ef8d-4d3f" name="M3 White Scout Car" hidden="false" targetId="4c8c-7148-6e31-d66b" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1301,15 +1181,7 @@ Inexperienced infantry units suffer D3 pinning markers
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks>
-        <categoryLink id="f110-1a3d-198b-11a6-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
+      <categoryLinks/>
     </entryLink>
     <entryLink id="2f94-3689-8214-276c" hidden="false" targetId="475c-0798-785e-5b79" type="selectionEntry">
       <profiles/>
@@ -1343,7 +1215,7 @@ Inexperienced infantry units suffer D3 pinning markers
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="446e-3926-8283-de2e" hidden="false" targetId="78db-1e07-2d12-82cf" type="selectionEntry">
+    <entryLink id="446e-3926-8283-de2e" name="SdKfz 222 Light Armoured Car" hidden="false" targetId="78db-1e07-2d12-82cf" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1471,14 +1343,14 @@ Inexperienced infantry units suffer D3 pinning markers
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="7614-a420-14ef-9135" hidden="false" targetId="de0d-5c01-2c37-1a26" type="selectionEntry">
+    <entryLink id="7614-a420-14ef-9135" name="M3A3 Stuart V" hidden="false" targetId="de0d-5c01-2c37-1a26" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="7614-a420-14ef-9135-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="4dc7-932e-63f5-531f" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1503,14 +1375,14 @@ Inexperienced infantry units suffer D3 pinning markers
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="dc78-5a6a-15d8-7537" hidden="false" targetId="660c-11d9-ea1c-d693" type="selectionEntry">
+    <entryLink id="dc78-5a6a-15d8-7537" name="T-26 Model 1933" hidden="false" targetId="660c-11d9-ea1c-d693" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="dc78-5a6a-15d8-7537-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="f5ce-f41f-60a2-50d1" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1519,14 +1391,14 @@ Inexperienced infantry units suffer D3 pinning markers
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="c8de-b64b-8651-a10b" hidden="false" targetId="eaff-78a5-76b1-15c0" type="selectionEntry">
+    <entryLink id="c8de-b64b-8651-a10b" name="M4 Sherman 75MM" hidden="false" targetId="eaff-78a5-76b1-15c0" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="c8de-b64b-8651-a10b-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
+        <categoryLink id="6729-82ed-99c5-ef50" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1541,15 +1413,7 @@ Inexperienced infantry units suffer D3 pinning markers
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks>
-        <categoryLink id="5c24-d649-6248-9c81-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
+      <categoryLinks/>
     </entryLink>
     <entryLink id="3034-21d1-6947-d113" name="Universal Carrier" hidden="false" targetId="885b-1aa6-424a-9f29" type="selectionEntry">
       <profiles/>
@@ -1573,15 +1437,7 @@ Inexperienced infantry units suffer D3 pinning markers
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks>
-        <categoryLink id="f9d3-29dc-e30c-d797-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
+      <categoryLinks/>
     </entryLink>
     <entryLink id="c5f3-cda4-2f4f-b8c7" hidden="false" targetId="8db2-fe14-2a29-74b2" type="selectionEntry">
       <profiles/>
@@ -1589,15 +1445,7 @@ Inexperienced infantry units suffer D3 pinning markers
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks>
-        <categoryLink id="c5f3-cda4-2f4f-b8c7-c4c0ca91-937b-7bae-f553-abfea10f1483" hidden="false" targetId="c4c0ca91-937b-7bae-f553-abfea10f1483" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
+      <categoryLinks/>
     </entryLink>
     <entryLink id="10b0-be0f-be5a-e7bf" hidden="false" targetId="c825-f051-27e6-28b8" type="selectionEntry">
       <profiles/>
@@ -3070,7 +2918,7 @@ Inexperienced infantry units suffer D3 pinning markers
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="72e5-d0d3-b7c9-f14f" name="Coaxial LMG" hidden="false" targetId="5663-b789-9e6c-ea26" type="selectionEntry">
+        <entryLink id="72e5-d0d3-b7c9-f14f" name="Coaxial LMG" hidden="false" targetId="4090-d5b4-6620-0a0a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3917,7 +3765,15 @@ Inexperienced infantry units suffer D3 pinning markers
         </modifier>
       </modifiers>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="f2ed-9f3d-0cef-a9f1" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1cb3-b747-573b-85f9" name="Turret-mounted MMG" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -4062,7 +3918,15 @@ Inexperienced infantry units suffer D3 pinning markers
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="2d9c-d915-1be3-d5a9" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="cc95-ce81-0b02-953c" name="Turret-mounted rear-facing MMG" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -4193,7 +4057,15 @@ Inexperienced infantry units suffer D3 pinning markers
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="31ca-388c-4e2e-918a" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ee3d-f91e-a4e4-c5fd" name="Turret-mounted rear-facing MMG" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -5420,7 +5292,15 @@ Inexperienced infantry units suffer D3 pinning markers
         </modifier>
       </modifiers>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="16f3-8606-d8d3-b959" name="New CategoryLink" hidden="false" targetId="75e6-a726-7549-c811" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="94e67b00-d2ed-acde-4bab-0986f67b9dbb" name="Rating" hidden="false" collective="false">
